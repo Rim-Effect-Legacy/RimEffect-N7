@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Rim-Effect: N7 beta 1</name>
+	<author>Vanilla Expanded Team and Co.</author>
+	<supportedVersions><li>1.2</li></supportedVersions>
+	<packageId>RimEffect.N7</packageId>
+    <modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
+		</li>
+        <li>
+			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+			<displayName>Vanilla Expanded Framework</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1854607105</steamWorkshopUrl>
+		</li>
+        <li>
+			<packageId>RimEffect.Core</packageId>
+			<displayName>Rim-Effect: Core</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>brrainz.harmony</li>
+        <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+		<li>erdelf.HumanoidAlienRaces</li>
+		<li>RimEffect.Core</li>
+	</loadAfter>
+	<description>Rim Effect: N7 features a number of unique, powerful weapons and armors from the N7 armory. It further enhances Systems Alliance faction with new pawn types that arrive in rare raids - N7 operatives, capable of using a host of abilities and game-changing weapons, sporting strong armors, omni-shields and their skill set, eclipsing that of normal Alliance footsoldiers.
+
+This pack is a part of the Rim Effect mod series and requires Rim Effect: Core to work.
+
+
+Do not share, redistribute, publish or use the assets from this mod without prior approval.
+	</description>
+</ModMetaData>
