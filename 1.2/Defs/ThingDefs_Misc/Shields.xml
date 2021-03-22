@@ -41,7 +41,7 @@
                 <label>centre</label>
                 <labelUsedInLogging>false</labelUsedInLogging>
                 <capacities>
-                    <li>Flame</li>
+                    <li>FlameOmni</li>
                 </capacities>
                 <power>12</power>
                 <cooldownTime>2</cooldownTime>
@@ -72,6 +72,18 @@
             <WorkToMake>6700</WorkToMake>
             <Mass>1.5</Mass>
         </statBases>
+        <recipeMaker>
+          <researchPrerequisite>RE_OmniTool</researchPrerequisite>
+          <skillRequirements>
+            <Crafting>7</Crafting>
+          </skillRequirements>
+          <recipeUsers Inherit="False">
+            <li>RE_ManufacturingBench</li>
+          </recipeUsers>
+        </recipeMaker>
+	    <tradeTags>
+           <li>RE_OmniShield</li>
+        </tradeTags>
         <comps>
             <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon"/>
             <li Class="VFECore.CompProperties_Shield">
