@@ -50,7 +50,7 @@
     </ThingDef>
 
     <ThingDef ParentName="RimEffect_BaseShield">
-        <defName>RE_Omnishield</defName>
+        <defName>REN7_Omnishield</defName>
         <label>omni shield</label>
         <description>tbd</description>
         <graphicData>
