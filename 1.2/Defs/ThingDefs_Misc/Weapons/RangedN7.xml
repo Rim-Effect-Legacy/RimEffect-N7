@@ -13,6 +13,13 @@
       <damageAmountBase>20</damageAmountBase>
       <armorPenetrationBase>0.4</armorPenetrationBase>
       <speed>70</speed>
+      <extraDamages>
+       <li>
+         <def>Bullet</def>
+         <amount>20</amount>
+         <chance>0.1</chance>
+       </li>
+       </extraDamages>
     </projectile>
   </ThingDef>
   
@@ -105,6 +112,13 @@
       <damageAmountBase>22</damageAmountBase>
       <armorPenetrationBase>0.4</armorPenetrationBase>
       <speed>70</speed>
+      <extraDamages>
+       <li>
+         <def>Bullet</def>
+         <amount>22</amount>
+         <chance>0.1</chance>
+       </li>
+       </extraDamages>
     </projectile>
   </ThingDef>
   
@@ -200,6 +214,13 @@
 	  <armorPenetrationBase>0.3</armorPenetrationBase>
       <stoppingPower>3</stoppingPower>
       <speed>70</speed>
+      <extraDamages>
+       <li>
+         <def>Bullet</def>
+         <amount>12</amount>
+         <chance>0.1</chance>
+       </li>
+       </extraDamages>
     </projectile>
   </ThingDef>
 
@@ -284,6 +305,13 @@
 	  <armorPenetrationBase>0.3</armorPenetrationBase>
       <stoppingPower>1.5</stoppingPower>
       <speed>80</speed>
+      <extraDamages>
+       <li>
+         <def>Bullet</def>
+         <amount>14</amount>
+         <chance>0.1</chance>
+       </li>
+       </extraDamages>
     </projectile>
   </ThingDef>
 
@@ -383,6 +411,13 @@
       <damageAmountBase>12</damageAmountBase>
 	  <armorPenetrationBase>0.35</armorPenetrationBase>
       <speed>70</speed>
+      <extraDamages>
+       <li>
+         <def>Bullet</def>
+         <amount>12</amount>
+         <chance>0.1</chance>
+       </li>
+       </extraDamages>
     </projectile>
   </ThingDef>
 
@@ -548,6 +583,13 @@
 	  <armorPenetrationBase>0.65</armorPenetrationBase>
       <stoppingPower>3</stoppingPower>
       <speed>80</speed>
+      <extraDamages>
+       <li>
+         <def>Bullet</def>
+         <amount>40</amount>
+         <chance>0.1</chance>
+       </li>
+       </extraDamages>
     </projectile>
   </ThingDef>
 
@@ -822,6 +864,13 @@
 	  <armorPenetrationBase>0.3</armorPenetrationBase>
       <stoppingPower>5</stoppingPower>
       <speed>70</speed>
+      <extraDamages>
+       <li>
+         <def>Bullet</def>
+         <amount>30</amount>
+         <chance>0.1</chance>
+       </li>
+       </extraDamages>
     </projectile>
   </ThingDef>
 
