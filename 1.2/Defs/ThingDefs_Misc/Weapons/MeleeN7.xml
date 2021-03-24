@@ -25,6 +25,9 @@
       </recipeUsers>
 	  <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
     </recipeMaker>
+    <weaponTags Inherit='False'>
+      <li>N7Gun</li>
+    </weaponTags>
     <comps>
       <li>
         <compClass>CompQuality</compClass>
