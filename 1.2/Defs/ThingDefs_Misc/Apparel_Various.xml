@@ -6,6 +6,7 @@
     <label>N7 heavy armor</label>
     <description>tbd.</description>
     <techLevel>Ultra</techLevel>
+	<thingClass>RimEffect.SpectreArmor</thingClass>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>REN7_N7Armoury</researchPrerequisite>
@@ -76,6 +77,7 @@
     <comps>
       <li Class="CompProperties_BiocodableApparel"/>
 	  <li Class="VFEMech.CompProperties_ShieldMechBubble">
+	    <compClass>VFEMech.ShieldMechBubble</compClass>
 		<blockRangedAttack>false</blockRangedAttack>
 		<blockMeleeAttack>false</blockMeleeAttack>
 		<showWhenDrafted>true</showWhenDrafted>
@@ -96,6 +98,7 @@
     <label>N7 adept suit</label>
     <description>tbd.</description>
     <techLevel>Ultra</techLevel>
+	<thingClass>RimEffect.SpectreArmor</thingClass>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>REN7_N7Armoury</researchPrerequisite>
@@ -165,6 +168,7 @@
     <comps>
       <li Class="CompProperties_BiocodableApparel"/>
 	  <li Class="VFEMech.CompProperties_ShieldMechBubble">
+	    <compClass>VFEMech.ShieldMechBubble</compClass>
 		<blockRangedAttack>false</blockRangedAttack>
 		<blockMeleeAttack>false</blockMeleeAttack>
 		<showWhenDrafted>true</showWhenDrafted>
@@ -185,6 +189,7 @@
     <label>N7 armor</label>
     <description>tbd.</description>
     <techLevel>Ultra</techLevel>
+	<thingClass>RimEffect.SpectreArmor</thingClass>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>REN7_N7Armoury</researchPrerequisite>
@@ -254,6 +259,7 @@
     <comps>
       <li Class="CompProperties_BiocodableApparel"/>
 	  <li Class="VFEMech.CompProperties_ShieldMechBubble">
+	    <compClass>VFEMech.ShieldMechBubble</compClass>
 		<blockRangedAttack>false</blockRangedAttack>
 		<blockMeleeAttack>false</blockMeleeAttack>
 		<showWhenDrafted>true</showWhenDrafted>
