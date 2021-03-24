@@ -75,6 +75,108 @@
     </thingSetMakerTags>
     <comps>
       <li Class="CompProperties_BiocodableApparel"/>
+	  <li Class="VFEMech.CompProperties_ShieldMechBubble">
+		<blockRangedAttack>false</blockRangedAttack>
+		<blockMeleeAttack>false</blockMeleeAttack>
+		<showWhenDrafted>true</showWhenDrafted>
+		<showOnHostiles>true</showOnHostiles>
+		<showOnNeutralInCombat>true</showOnNeutralInCombat>
+		<shieldTexPath>UI/AbilityShields/ShieldTech</shieldTexPath>
+		<EnergyShieldRechargeRate>0.03</EnergyShieldRechargeRate>
+		<EnergyShieldEnergyMax>100</EnergyShieldEnergyMax>
+		<minShieldSize>1</minShieldSize>
+		<maxShieldSize>1.5</maxShieldSize>
+		<disableRotation>true</disableRotation>
+	  </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="ArmorMachineableBase">
+    <defName>REN7_Apparel_N7AdeptSuit</defName>
+    <label>N7 adept suit</label>
+    <description>tbd.</description>
+    <techLevel>Ultra</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>REN7_N7Armoury</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>RE_ManufacturingBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Item/Apparel/N7HeavyArmor/N7HeavyArmor</texPath> <!-- should be changed when the textures are done -->
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <generateCommonality>2</generateCommonality>
+    <tradeTags>
+      <li>RE_N7Armoury</li>
+    </tradeTags>
+    <statBases>
+      <WorkToMake>40000</WorkToMake>
+      <MaxHitPoints>280</MaxHitPoints>
+      <Mass>7</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>0.9</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.3</ArmorRating_Heat>
+      <Insulation_Cold>26</Insulation_Cold>
+      <Insulation_Heat>12</Insulation_Heat>
+      <EquipDelay>11</EquipDelay>
+    </statBases>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <costList>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Plasteel>60</Plasteel>
+      <RE_ElementZero>15</RE_ElementZero>
+    </costList>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Item/Apparel/N7HeavyArmor/N7HeavyArmor</wornGraphicPath> <!-- should be changed when the textures are done -->
+      <layers>
+        <li>Middle</li>
+        <li>Shell</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <useDeflectMetalEffect>true</useDeflectMetalEffect>
+      <tags>
+        <li>REN7_AdeptArmor</li>
+      </tags>
+    </apparel>
+    <thingSetMakerTags>
+      <li>RE_N7Armoury</li>
+    </thingSetMakerTags>
+	<equippedStatOffsets>
+      <RE_BioticEnergyMax>1.0</RE_BioticEnergyMax>
+    </equippedStatOffsets>
+    <comps>
+      <li Class="CompProperties_BiocodableApparel"/>
+	  <li Class="VFEMech.CompProperties_ShieldMechBubble">
+		<blockRangedAttack>false</blockRangedAttack>
+		<blockMeleeAttack>false</blockMeleeAttack>
+		<showWhenDrafted>true</showWhenDrafted>
+		<showOnHostiles>true</showOnHostiles>
+		<showOnNeutralInCombat>true</showOnNeutralInCombat>
+		<shieldTexPath>UI/AbilityShields/ShieldTech</shieldTexPath>
+		<EnergyShieldRechargeRate>0.03</EnergyShieldRechargeRate>
+		<EnergyShieldEnergyMax>40</EnergyShieldEnergyMax>
+		<minShieldSize>1</minShieldSize>
+		<maxShieldSize>1.5</maxShieldSize>
+		<disableRotation>true</disableRotation>
+	  </li>
     </comps>
   </ThingDef>
 
