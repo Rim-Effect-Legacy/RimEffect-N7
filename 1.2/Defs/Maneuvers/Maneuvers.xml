@@ -2,7 +2,7 @@
 <Defs>
 
   <ManeuverDef>
-    <defName>Smash</defName>
+    <defName>REN7_FlameOmni</defName>
     <requiredCapacity>FlameOmni</requiredCapacity>
     <verb>
       <verbClass>Verb_MeleeAttackDamage</verbClass>
