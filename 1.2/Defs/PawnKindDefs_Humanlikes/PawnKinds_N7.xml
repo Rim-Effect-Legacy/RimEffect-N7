@@ -37,8 +37,8 @@
     <gearHealthRange>1~1</gearHealthRange>
     <techHediffsChance>0.6</techHediffsChance>
     <techHediffsMoney>2500~8500</techHediffsMoney>
+	<apparelIgnoreSeasons>True</apparelIgnoreSeasons>
 	<techHediffsTags>
-	  <li>Archotech</li>
       <li>Advanced</li>
 	  <li>RE_Implant</li>
     </techHediffsTags>
