@@ -128,7 +128,7 @@
     <description>tbd.</description>
     <techLevel>Ultra</techLevel>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/N7BattleRifle</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/N7LMG</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>REN7_Interact_N7LMG</soundInteract>
@@ -230,7 +230,7 @@
     <description>tbd.</description>
     <techLevel>Ultra</techLevel>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/N7ChainShotgun</texPath> <!-- needs to be changed to N7Shotgun when it's done -->
+      <texPath>Things/Item/Equipment/WeaponRanged/N7Shotgun</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>REN7_Interact_N7Shotgun</soundInteract>
@@ -321,7 +321,7 @@
     <description>tbd.</description>
     <techLevel>Ultra</techLevel>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/N7BattleRifle</texPath> <!-- needs to be changed to N7DMR when it's done -->
+      <texPath>Things/Item/Equipment/WeaponRanged/N7DMR</texPath> 
       <graphicClass>Graphic_Single</graphicClass>
 	  <drawSize>1.14</drawSize>
     </graphicData>
@@ -682,7 +682,7 @@
     <tickerType>Normal</tickerType>
     <techLevel>Ultra</techLevel>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/AllianceMissileLauncher</texPath> <!-- needs to be changed to N7BlackHoleGenerator when it's done -->
+      <texPath>Things/Item/Equipment/WeaponRanged/N7BlackHoleGun</texPath> <!-- needs to be changed to N7BlackHoleGenerator when it's done -->
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.22</drawSize>
     </graphicData>
@@ -773,7 +773,7 @@
 	<thingClass>Projectile_Explosive</thingClass>
     <projectile>
       <damageDef>Bomb</damageDef>
-      <!-- Use default damage from explosion def -->
+      <!-- Uses default damage from explosion def -->
       <explosionRadius>3.9</explosionRadius>
       <speed>40</speed>
     </projectile>
