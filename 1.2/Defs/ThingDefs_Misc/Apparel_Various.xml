@@ -110,7 +110,7 @@
       </recipeUsers>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Item/Apparel/N7HeavyArmor/N7HeavyArmor</texPath> <!-- should be changed when the textures are done -->
+      <texPath>Things/Item/Apparel/N7AdeptArmor/N7AdeptArmor</texPath> 
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -146,7 +146,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Item/Apparel/N7HeavyArmor/N7HeavyArmor</wornGraphicPath> <!-- should be changed when the textures are done -->
+      <wornGraphicPath>Things/Item/Apparel/N7AdeptArmor/N7AdeptArmor</wornGraphicPath> 
       <layers>
         <li>Middle</li>
         <li>Shell</li>
@@ -201,7 +201,7 @@
       </recipeUsers>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Item/Apparel/N7HeavyArmor/N7HeavyArmor</texPath> <!-- should be changed when the textures are done -->
+      <texPath>Things/Item/Apparel/N7Armor/N7Armor</texPath> 
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -240,7 +240,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Item/Apparel/N7HeavyArmor/N7HeavyArmor</wornGraphicPath> <!-- should be changed when the textures are done -->
+      <wornGraphicPath>Things/Item/Apparel/N7Armor/N7Armor</wornGraphicPath> 
       <layers>
         <li>Middle</li>
         <li>Shell</li>
