@@ -82,7 +82,7 @@
       </recipeUsers>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Item/Apparel/N7HeavyArmor/N7HeavyArmorHelmet</texPath> <!-- should be changed when the textures are done -->
+      <texPath>Things/Item/Apparel/N7AdeptArmor/N7AdeptArmorHelmet</texPath> 
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.9, 0.9)</drawSize>
 	  <shaderType>CutoutComplex</shaderType>
@@ -118,7 +118,7 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Item/Apparel/N7HeavyArmor/N7HeavyArmorHelmet</wornGraphicPath> <!-- should be changed when the textures are done -->
+      <wornGraphicPath>Things/Item/Apparel/N7AdeptArmor/N7AdeptArmorHelmet</wornGraphicPath> 
       <layers>
         <li>Overhead</li>
       </layers>
@@ -151,7 +151,7 @@
       </recipeUsers>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Apparel/MediumAllianceArmor/MediumAllianceArmorHelmet</texPath>
+      <texPath>Things/Apparel/N7Armor/N7ArmorHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -180,7 +180,7 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Apparel/MediumAllianceArmor/MediumAllianceArmorHelmet</wornGraphicPath>
+      <wornGraphicPath>Things/Apparel/N7Armor/N7ArmorHelmet</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
