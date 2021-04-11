@@ -208,7 +208,7 @@
     </graphicData>
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
-      <damageDef>Blunt</damageDef>
+      <damageDef>REN7_Blunt</damageDef>
       <speed>45</speed>
       <explosionRadius>2</explosionRadius>
       <damageAmountBase>10</damageAmountBase>
