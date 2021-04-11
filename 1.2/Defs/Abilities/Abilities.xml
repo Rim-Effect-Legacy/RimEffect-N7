@@ -10,7 +10,7 @@
         <range>24</range>
         <iconPath>Things/Abilities/Biotic_DarkChannel</iconPath>
         <power>6</power>
-        <!-- >castSound>RE_Biotic_Throw</castSound-->
+        <castSound>REN7_Biotic_DarkChannel</castSound>
         <castMote>Mote_BlastDry</castMote>
         <targetMotes>
             <li>RE_Mote_BioticDistortion</li>
