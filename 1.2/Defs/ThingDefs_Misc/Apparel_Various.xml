@@ -6,7 +6,7 @@
     <label>N7 heavy armor</label>
     <description>tbd.</description>
     <techLevel>Ultra</techLevel>
-	<thingClass>RimEffect.SpectreArmor</thingClass>
+    <thingClass>RimEffect.SpectreArmor</thingClass>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>REN7_N7Armoury</researchPrerequisite>
@@ -76,20 +76,20 @@
     </thingSetMakerTags>
     <comps>
       <li Class="CompProperties_BiocodableApparel"/>
-	  <li Class="VFEMech.CompProperties_ShieldMechBubble">
-	    <compClass>VFEMech.ShieldMechBubble</compClass>
-		<blockRangedAttack>false</blockRangedAttack>
-		<blockMeleeAttack>false</blockMeleeAttack>
-		<showWhenDrafted>true</showWhenDrafted>
-		<showOnHostiles>true</showOnHostiles>
-		<showOnNeutralInCombat>true</showOnNeutralInCombat>
-		<shieldTexPath>UI/AbilityShields/ShieldTech</shieldTexPath>
-		<EnergyShieldRechargeRate>0.03</EnergyShieldRechargeRate>
-		<EnergyShieldEnergyMax>100</EnergyShieldEnergyMax>
-		<minShieldSize>1</minShieldSize>
-		<maxShieldSize>1.5</maxShieldSize>
-		<disableRotation>true</disableRotation>
-	  </li>
+      <li Class="VFEMech.CompProperties_ShieldMechBubble">
+        <compClass>VFEMech.ShieldMechBubble</compClass>
+        <blockRangedAttack>false</blockRangedAttack>
+        <blockMeleeAttack>false</blockMeleeAttack>
+        <showWhenDrafted>true</showWhenDrafted>
+        <showOnHostiles>true</showOnHostiles>
+        <showOnNeutralInCombat>true</showOnNeutralInCombat>
+        <shieldTexPath>UI/AbilityShields/ShieldTech</shieldTexPath>
+        <EnergyShieldRechargeRate>0.03</EnergyShieldRechargeRate>
+        <EnergyShieldEnergyMax>100</EnergyShieldEnergyMax>
+        <minShieldSize>1</minShieldSize>
+        <maxShieldSize>1.5</maxShieldSize>
+        <disableRotation>true</disableRotation>
+      </li>
     </comps>
   </ThingDef>
 
@@ -98,7 +98,7 @@
     <label>N7 adept suit</label>
     <description>tbd.</description>
     <techLevel>Ultra</techLevel>
-	<thingClass>RimEffect.SpectreArmor</thingClass>
+    <thingClass>RimEffect.SpectreArmor</thingClass>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>REN7_N7Armoury</researchPrerequisite>
@@ -110,7 +110,7 @@
       </recipeUsers>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Item/Apparel/N7AdeptArmor/N7AdeptArmor</texPath> 
+      <texPath>Things/Item/Apparel/N7AdeptArmor/N7AdeptArmor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -146,7 +146,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Item/Apparel/N7AdeptArmor/N7AdeptArmor</wornGraphicPath> 
+      <wornGraphicPath>Things/Item/Apparel/N7AdeptArmor/N7AdeptArmor</wornGraphicPath>
       <layers>
         <li>Middle</li>
         <li>Shell</li>
@@ -162,34 +162,39 @@
     <thingSetMakerTags>
       <li>RE_N7Armoury</li>
     </thingSetMakerTags>
-	<equippedStatOffsets>
+    <equippedStatOffsets>
       <RE_BioticEnergyMax>1.0</RE_BioticEnergyMax>
     </equippedStatOffsets>
     <comps>
       <li Class="CompProperties_BiocodableApparel"/>
-	  <li Class="VFEMech.CompProperties_ShieldMechBubble">
-	    <compClass>VFEMech.ShieldMechBubble</compClass>
-		<blockRangedAttack>false</blockRangedAttack>
-		<blockMeleeAttack>false</blockMeleeAttack>
-		<showWhenDrafted>true</showWhenDrafted>
-		<showOnHostiles>true</showOnHostiles>
-		<showOnNeutralInCombat>true</showOnNeutralInCombat>
-		<shieldTexPath>UI/AbilityShields/ShieldTech</shieldTexPath>
-		<EnergyShieldRechargeRate>0.03</EnergyShieldRechargeRate>
-		<EnergyShieldEnergyMax>40</EnergyShieldEnergyMax>
-		<minShieldSize>1</minShieldSize>
-		<maxShieldSize>1.5</maxShieldSize>
-		<disableRotation>true</disableRotation>
-	  </li>
+      <li Class="VFEMech.CompProperties_ShieldMechBubble">
+        <compClass>VFEMech.ShieldMechBubble</compClass>
+        <blockRangedAttack>false</blockRangedAttack>
+        <blockMeleeAttack>false</blockMeleeAttack>
+        <showWhenDrafted>true</showWhenDrafted>
+        <showOnHostiles>true</showOnHostiles>
+        <showOnNeutralInCombat>true</showOnNeutralInCombat>
+        <shieldTexPath>UI/AbilityShields/ShieldTech</shieldTexPath>
+        <EnergyShieldRechargeRate>0.03</EnergyShieldRechargeRate>
+        <EnergyShieldEnergyMax>40</EnergyShieldEnergyMax>
+        <minShieldSize>1</minShieldSize>
+        <maxShieldSize>1.5</maxShieldSize>
+        <disableRotation>true</disableRotation>
+      </li>
+      <li Class="RimEffect.CompProperties_AbilitiesApparel">
+        <abilities>
+          <li>REN7_DarkChannel</li>
+        </abilities>
+      </li>
     </comps>
   </ThingDef>
-  
+
   <ThingDef ParentName="ArmorMachineableBase">
     <defName>REN7_Apparel_N7Armor</defName>
     <label>N7 armor</label>
     <description>tbd.</description>
     <techLevel>Ultra</techLevel>
-	<thingClass>RimEffect.SpectreArmor</thingClass>
+    <thingClass>RimEffect.SpectreArmor</thingClass>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
       <researchPrerequisite>REN7_N7Armoury</researchPrerequisite>
@@ -201,7 +206,7 @@
       </recipeUsers>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Item/Apparel/N7Armor/N7Armor</texPath> 
+      <texPath>Things/Item/Apparel/N7Armor/N7Armor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -240,7 +245,7 @@
         <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Item/Apparel/N7Armor/N7Armor</wornGraphicPath> 
+      <wornGraphicPath>Things/Item/Apparel/N7Armor/N7Armor</wornGraphicPath>
       <layers>
         <li>Middle</li>
         <li>Shell</li>
@@ -258,20 +263,25 @@
     </thingSetMakerTags>
     <comps>
       <li Class="CompProperties_BiocodableApparel"/>
-	  <li Class="VFEMech.CompProperties_ShieldMechBubble">
-	    <compClass>VFEMech.ShieldMechBubble</compClass>
-		<blockRangedAttack>false</blockRangedAttack>
-		<blockMeleeAttack>false</blockMeleeAttack>
-		<showWhenDrafted>true</showWhenDrafted>
-		<showOnHostiles>true</showOnHostiles>
-		<showOnNeutralInCombat>true</showOnNeutralInCombat>
-		<shieldTexPath>UI/AbilityShields/ShieldTech</shieldTexPath>
-		<EnergyShieldRechargeRate>0.03</EnergyShieldRechargeRate>
-		<EnergyShieldEnergyMax>70</EnergyShieldEnergyMax>
-		<minShieldSize>1</minShieldSize>
-		<maxShieldSize>1.5</maxShieldSize>
-		<disableRotation>true</disableRotation>
-	  </li>
+      <li Class="VFEMech.CompProperties_ShieldMechBubble">
+        <compClass>VFEMech.ShieldMechBubble</compClass>
+        <blockRangedAttack>false</blockRangedAttack>
+        <blockMeleeAttack>false</blockMeleeAttack>
+        <showWhenDrafted>true</showWhenDrafted>
+        <showOnHostiles>true</showOnHostiles>
+        <showOnNeutralInCombat>true</showOnNeutralInCombat>
+        <shieldTexPath>UI/AbilityShields/ShieldTech</shieldTexPath>
+        <EnergyShieldRechargeRate>0.03</EnergyShieldRechargeRate>
+        <EnergyShieldEnergyMax>70</EnergyShieldEnergyMax>
+        <minShieldSize>1</minShieldSize>
+        <maxShieldSize>1.5</maxShieldSize>
+        <disableRotation>true</disableRotation>
+      </li>
+      <li Class="RimEffect.CompProperties_AbilitiesApparel">
+        <abilities>
+          <li>REN7_Carnage</li>
+        </abilities>
+      </li>
     </comps>
   </ThingDef>
 
