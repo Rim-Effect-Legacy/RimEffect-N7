@@ -173,4 +173,45 @@
             </li>
           </comps>
     </HediffDef>
+
+    
+  <RimEffect.AbilityDef>
+    <defName>REN7_Carnage</defName>
+    <label>carnage</label>
+    <description>High-explosive armor shredding projectile.</description>
+    <abilityClass>RimEffect.Ability_ShootProjectile</abilityClass>
+    <targetMode>Location</targetMode>
+    <range>26</range>
+    <radius>4</radius>
+    <cooldownTime>1800</cooldownTime>
+    <cooldownTimeStatFactors>
+    <RE_AbilityCooldownFactor>1</RE_AbilityCooldownFactor>
+    </cooldownTimeStatFactors>
+    <power>30</power>
+    <iconPath>Things/Abilities/Tech_Carnage</iconPath>
+	  <castSound>RE_Tech_Incinerate</castSound>
+    <modExtensions>
+      <li Class="RimEffect.AbilityExtension_Projectile">
+        <projectile>REN7_CarnageProjectile</projectile>
+      </li>
+    </modExtensions>
+  </RimEffect.AbilityDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>REN7_CarnageProjectile</defName>
+    <label>high plasma projectile</label>
+    <graphicData>
+      <texPath>Things/AbilityEffects/Shot_Carnage</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+      <color>(254,189,58)</color>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>Blunt</damageDef>
+      <speed>45</speed>
+      <explosionRadius>2</explosionRadius>
+      <damageAmountBase>10</damageAmountBase>
+    </projectile>
+  </ThingDef>
 </Defs>

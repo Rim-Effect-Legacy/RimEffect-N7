@@ -277,6 +277,11 @@
         <maxShieldSize>1.5</maxShieldSize>
         <disableRotation>true</disableRotation>
       </li>
+      <li Class="RimEffect.CompProperties_AbilitiesApparel">
+        <abilities>
+          <li>REN7_Carnage</li>
+        </abilities>
+      </li>
     </comps>
   </ThingDef>
 
