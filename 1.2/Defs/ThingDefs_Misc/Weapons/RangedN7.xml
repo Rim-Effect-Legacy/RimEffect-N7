@@ -141,6 +141,7 @@
       <RangedWeapon_Cooldown>2.4</RangedWeapon_Cooldown>
       <WorkToMake>55000</WorkToMake>
     </statBases>
+	<equippedAngleOffset>50</equippedAngleOffset>
     <recipeMaker>
       <researchPrerequisite>REN7_N7Weaponry</researchPrerequisite>
       <skillRequirements>
@@ -171,7 +172,7 @@
         <warmupTime>2.0</warmupTime>
         <range>34.9</range>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <burstShotCount>2</burstShotCount>
+        <burstShotCount>5</burstShotCount>
         <soundCast>REN7_Shot_N7LMG</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
