@@ -316,4 +316,37 @@
     </subSounds>
   </SoundDef>
   
+  <SoundDef>
+    <defName>REN7_MeleeHit_N7Blade</defName>  
+    <context>MapOnly</context> 
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Things/N7Blade/AttackA_N7Blade</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>17~20</volumeRange>      
+        <pitchRange>0.9152174~1.169566</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>REN7_Interact_N7Blade</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/N7Blade/Interact_N7Blade</clipPath>
+          </li>
+        </grains>
+        <volumeRange>32~32</volumeRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
 </Defs>

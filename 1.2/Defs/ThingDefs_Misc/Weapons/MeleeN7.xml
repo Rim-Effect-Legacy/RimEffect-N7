@@ -47,8 +47,8 @@
     <defName>REN7_MeleeWeapon_N7Blade</defName>
     <label>N7 blade</label>
     <description>tbd.</description>
-    <soundInteract>Interact_MonoSword</soundInteract>
-    <meleeHitSound>MeleeHit_MonoSword</meleeHitSound>
+    <soundInteract>REN7_Interact_N7Blade</soundInteract>
+    <meleeHitSound>REN7_MeleeHit_N7Blade</meleeHitSound>
     <equippedAngleOffset>-65</equippedAngleOffset>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponMelee/N7Blade</texPath>
