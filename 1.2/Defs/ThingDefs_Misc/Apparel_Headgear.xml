@@ -151,7 +151,7 @@
       </recipeUsers>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Apparel/N7Armor/N7ArmorHelmet</texPath>
+      <texPath>Things/Item/Apparel/N7Armor/N7ArmorHelmet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -180,7 +180,7 @@
       <bodyPartGroups>
         <li>FullHead</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Apparel/N7Armor/N7ArmorHelmet</wornGraphicPath>
+      <wornGraphicPath>Things/Item/Apparel/N7Armor/N7ArmorHelmet</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
