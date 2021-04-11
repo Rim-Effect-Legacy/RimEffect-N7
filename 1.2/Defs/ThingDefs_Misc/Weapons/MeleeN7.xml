@@ -89,6 +89,11 @@
         <armorPenetration>0.2</armorPenetration>
       </li>
     </tools>
+        <modExtensions>
+	            <li Class="VFECore.ThingDefExtension">
+                <usableWithShields>true</usableWithShields>
+            </li>
+        </modExtensions>
   </ThingDef>
   
 </Defs>
