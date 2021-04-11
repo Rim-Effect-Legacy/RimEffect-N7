@@ -167,20 +167,6 @@
     </equippedStatOffsets>
     <comps>
       <li Class="CompProperties_BiocodableApparel"/>
-      <li Class="VFEMech.CompProperties_ShieldMechBubble">
-        <compClass>VFEMech.ShieldMechBubble</compClass>
-        <blockRangedAttack>false</blockRangedAttack>
-        <blockMeleeAttack>false</blockMeleeAttack>
-        <showWhenDrafted>true</showWhenDrafted>
-        <showOnHostiles>true</showOnHostiles>
-        <showOnNeutralInCombat>true</showOnNeutralInCombat>
-        <shieldTexPath>UI/AbilityShields/ShieldTech</shieldTexPath>
-        <EnergyShieldRechargeRate>0.03</EnergyShieldRechargeRate>
-        <EnergyShieldEnergyMax>40</EnergyShieldEnergyMax>
-        <minShieldSize>1</minShieldSize>
-        <maxShieldSize>1.5</maxShieldSize>
-        <disableRotation>true</disableRotation>
-      </li>
       <li Class="RimEffect.CompProperties_AbilitiesApparel">
         <abilities>
           <li>REN7_DarkChannel</li>
@@ -263,20 +249,6 @@
     </thingSetMakerTags>
     <comps>
       <li Class="CompProperties_BiocodableApparel"/>
-      <li Class="VFEMech.CompProperties_ShieldMechBubble">
-        <compClass>VFEMech.ShieldMechBubble</compClass>
-        <blockRangedAttack>false</blockRangedAttack>
-        <blockMeleeAttack>false</blockMeleeAttack>
-        <showWhenDrafted>true</showWhenDrafted>
-        <showOnHostiles>true</showOnHostiles>
-        <showOnNeutralInCombat>true</showOnNeutralInCombat>
-        <shieldTexPath>UI/AbilityShields/ShieldTech</shieldTexPath>
-        <EnergyShieldRechargeRate>0.03</EnergyShieldRechargeRate>
-        <EnergyShieldEnergyMax>70</EnergyShieldEnergyMax>
-        <minShieldSize>1</minShieldSize>
-        <maxShieldSize>1.5</maxShieldSize>
-        <disableRotation>true</disableRotation>
-      </li>
       <li Class="RimEffect.CompProperties_AbilitiesApparel">
         <abilities>
           <li>REN7_Carnage</li>
