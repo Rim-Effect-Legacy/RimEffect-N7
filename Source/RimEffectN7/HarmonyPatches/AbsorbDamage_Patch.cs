@@ -45,6 +45,6 @@
         }
 
         public static bool Absorb(Pawn pawn) => 
-            pawn.equipment.Primary?.def.GetModExtension<DeflectExtension>()?.Deflected ?? false;
+            pawn.equipment?.Primary?.def.GetModExtension<DeflectExtension>()?.Deflected ?? false;
     }
 }
