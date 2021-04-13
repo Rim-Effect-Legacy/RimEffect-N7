@@ -60,6 +60,7 @@
 	</statBases>
     <costList>
       <Plasteel>35</Plasteel>
+	  <RE_ElementZero>5</RE_ElementZero>
     </costList>
     <tools>
       <li>
