@@ -35,11 +35,11 @@
     <soundInteract>REN7_Interact_N7BattleRifle</soundInteract>
     <statBases>
       <Mass>4.8</Mass>
-      <AccuracyTouch>0.53</AccuracyTouch>
+      <AccuracyTouch>0.54</AccuracyTouch>
       <AccuracyShort>0.72</AccuracyShort>
-      <AccuracyMedium>0.8</AccuracyMedium>
-      <AccuracyLong>0.82</AccuracyLong>
-      <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+      <AccuracyMedium>0.78</AccuracyMedium>
+      <AccuracyLong>0.80</AccuracyLong>
+      <RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
       <WorkToMake>55000</WorkToMake>
     </statBases>
     <recipeMaker>
@@ -54,6 +54,7 @@
     <costList>
       <Plasteel>75</Plasteel>
       <ComponentSpacer>4</ComponentSpacer>
+      <RE_ElementZero>5</RE_ElementZero>
     </costList>
     <thingSetMakerTags>
       <li>REN7_N7</li>
@@ -71,7 +72,7 @@
         <defaultProjectile>REN7_Bullet_N7BattleRifle</defaultProjectile>
         <warmupTime>2.0</warmupTime>
         <range>39.9</range>
-        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
         <burstShotCount>2</burstShotCount>
         <soundCast>REN7_Shot_N7BattleRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -109,8 +110,9 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>22</damageAmountBase>
-      <armorPenetrationBase>0.4</armorPenetrationBase>
+      <damageAmountBase>20</damageAmountBase>
+      <armorPenetrationBase>0.6</armorPenetrationBase>
+      <stoppingPower>3</stoppingPower>
       <speed>70</speed>
       <extraDamages>
        <li>
@@ -134,11 +136,11 @@
     <soundInteract>REN7_Interact_N7LMG</soundInteract>
     <statBases>
       <Mass>5.2</Mass>
-      <AccuracyTouch>0.48</AccuracyTouch>
-      <AccuracyShort>0.67</AccuracyShort>
-      <AccuracyMedium>0.75</AccuracyMedium>
-      <AccuracyLong>0.77</AccuracyLong>
-      <RangedWeapon_Cooldown>2.4</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.55</AccuracyTouch>
+      <AccuracyShort>0.64</AccuracyShort>
+      <AccuracyMedium>0.55</AccuracyMedium>
+      <AccuracyLong>0.45</AccuracyLong>
+      <RangedWeapon_Cooldown>4.6</RangedWeapon_Cooldown>
       <WorkToMake>55000</WorkToMake>
     </statBases>
 	<equippedAngleOffset>50</equippedAngleOffset>
@@ -154,6 +156,7 @@
     <costList>
       <Plasteel>80</Plasteel>
       <ComponentSpacer>5</ComponentSpacer>
+      <RE_ElementZero>5</RE_ElementZero>
     </costList>
     <thingSetMakerTags>
       <li>REN7_N7</li>
@@ -172,7 +175,7 @@
         <warmupTime>2.0</warmupTime>
         <range>34.9</range>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <burstShotCount>5</burstShotCount>
+        <burstShotCount>8</burstShotCount>
         <soundCast>REN7_Shot_N7LMG</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -207,12 +210,12 @@
       <texPath>Things/Projectile/Shot_MassAccelerated_Shotgun</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>TransparentPostLight</shaderType>
-      <drawSize>1.2</drawSize>
+      <drawSize>0.7</drawSize>
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>12</damageAmountBase>
-	  <armorPenetrationBase>0.3</armorPenetrationBase>
+      <damageAmountBase>10</damageAmountBase>
+	  <armorPenetrationBase>0.4</armorPenetrationBase>
       <stoppingPower>3</stoppingPower>
       <speed>70</speed>
       <extraDamages>
@@ -237,10 +240,10 @@
     <soundInteract>REN7_Interact_N7Shotgun</soundInteract>
     <statBases>
       <Mass>4.2</Mass>
-      <AccuracyTouch>0.55</AccuracyTouch>
-      <AccuracyShort>0.57</AccuracyShort>
-      <AccuracyMedium>0.72</AccuracyMedium>
-      <AccuracyLong>0.75</AccuracyLong>
+      <AccuracyTouch>0.70</AccuracyTouch>
+      <AccuracyShort>0.73</AccuracyShort>
+      <AccuracyMedium>0.86</AccuracyMedium>
+      <AccuracyLong>0.88</AccuracyLong>
       <RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
       <WorkToMake>45000</WorkToMake>
     </statBases>
@@ -256,6 +259,7 @@
     <costList>
       <Plasteel>75</Plasteel>
       <ComponentSpacer>4</ComponentSpacer>
+      <RE_ElementZero>5</RE_ElementZero>
     </costList>
     <weaponTags Inherit='False'>
       <li>N7Gun</li>
@@ -272,7 +276,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>REN7_Bullet_N7Shotgun</defaultProjectile>
         <warmupTime>1.5</warmupTime>
-        <range>24.9</range>
+        <range>32.9</range>
 		<burstShotCount>1</burstShotCount>
         <soundCast>REN7_Shot_N7Shotgun</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -333,7 +337,7 @@
     <soundInteract>REN7_Interact_N7DMR</soundInteract>
     <statBases>
       <WorkToMake>52000</WorkToMake>
-      <Mass>5.2</Mass>
+      <Mass>4.8</Mass>
       <AccuracyTouch>0.72</AccuracyTouch>
       <AccuracyShort>0.75</AccuracyShort>
       <AccuracyMedium>0.88</AccuracyMedium>
@@ -353,6 +357,7 @@
     <costList>
       <Plasteel>85</Plasteel>
       <ComponentSpacer>5</ComponentSpacer>
+      <RE_ElementZero>5</RE_ElementZero>
     </costList>
     <weaponTags Inherit='False'>
       <li>N7GunSniper</li>
@@ -367,7 +372,8 @@
         <defaultProjectile>REN7_Bullet_N7DMR</defaultProjectile>
         <warmupTime>2.2</warmupTime>
         <range>42.9</range>
-        <burstShotCount>1</burstShotCount>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>16</ticksBetweenBurstShots>
         <soundCast>REN7_Shot_N7DMR</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -453,6 +459,7 @@
     <costList>
       <Plasteel>55</Plasteel>
       <ComponentSpacer>3</ComponentSpacer>
+      <RE_ElementZero>5</RE_ElementZero>
     </costList>
     <weaponTags Inherit='False'>
       <li>N7GunLight</li>
@@ -527,6 +534,7 @@
     <costList>
       <Plasteel>45</Plasteel>
       <ComponentSpacer>2</ComponentSpacer>
+      <RE_ElementZero>5</RE_ElementZero>
     </costList>
     <weaponTags Inherit='False'>
       <li>AllianceGunLight</li>
@@ -545,7 +553,8 @@
         <defaultProjectile>RE_Bullet_N7Pistol</defaultProjectile>
         <warmupTime>0.3</warmupTime>
         <range>22.9</range>
-        <burstShotCount>1</burstShotCount>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
         <soundCast>REN7_Shot_N7Pistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -580,14 +589,14 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>40</damageAmountBase>
+      <damageAmountBase>32</damageAmountBase>
 	  <armorPenetrationBase>0.65</armorPenetrationBase>
       <stoppingPower>3</stoppingPower>
       <speed>80</speed>
       <extraDamages>
        <li>
          <def>Bullet</def>
-         <amount>40</amount>
+         <amount>32</amount>
          <chance>0.1</chance>
        </li>
        </extraDamages>
@@ -610,13 +619,13 @@
     </comps>
     <soundInteract>REN7_Interact_N7AntiMaterielRifle</soundInteract>
     <statBases>
-      <WorkToMake>50000</WorkToMake>
-      <Mass>8.2</Mass>
+      <WorkToMake>55000</WorkToMake>
+      <Mass>7.0</Mass>
       <AccuracyTouch>0.62</AccuracyTouch>
       <AccuracyShort>0.68</AccuracyShort>
       <AccuracyMedium>0.96</AccuracyMedium>
       <AccuracyLong>0.99</AccuracyLong>
-      <RangedWeapon_Cooldown>2.70</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.9</RangedWeapon_Cooldown>
     </statBases>
 	<equippedAngleOffset>50</equippedAngleOffset>
     <recipeMaker>
@@ -634,6 +643,7 @@
     <costList>
       <Plasteel>120</Plasteel>
       <ComponentSpacer>4</ComponentSpacer>
+      <RE_ElementZero>10</RE_ElementZero>
     </costList>
     <weaponTags Inherit='False'>
       <li>N7GunHeavy</li>
@@ -646,8 +656,8 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>REN7_Bullet_N7AntimaterielRifle</defaultProjectile>
-        <warmupTime>3.0</warmupTime>
-        <range>48.9</range>
+        <warmupTime>2.6</warmupTime>
+        <range>42.9</range>
         <burstShotCount>1</burstShotCount>
         <soundCast>REN7_Shot_N7AntiMaterielRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -690,7 +700,7 @@
     <soundInteract>REN7_Interact_N7BlackHoleGenerator</soundInteract>
     <statBases>
       <WorkToMake>85000</WorkToMake>
-      <MarketValue>6000</MarketValue>
+      <MarketValue>12000</MarketValue>
       <Mass>12</Mass>
       <RangedWeapon_Cooldown>4.4</RangedWeapon_Cooldown>
     </statBases>
@@ -698,8 +708,8 @@
     <costList>
       <Plasteel>60</Plasteel>
       <Uranium>30</Uranium>
-	  <ComponentSpacer>1</ComponentSpacer>
-	  <RE_ElementZero>3</RE_ElementZero>
+	  <ComponentSpacer>12</ComponentSpacer>
+	  <RE_ElementZero>30</RE_ElementZero>
     </costList>
     <recipeMaker>
       <recipeUsers>
@@ -813,6 +823,7 @@
     <costList>
       <Plasteel>85</Plasteel>
       <ComponentSpacer>4</ComponentSpacer>
+      <RE_ElementZero>10</RE_ElementZero>
     </costList>
     <weaponTags Inherit='False'>
       <li>N7GunHeavy</li>
@@ -829,7 +840,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>REN7_Bullet_N7ChainShotgun</defaultProjectile>
         <warmupTime>1.2</warmupTime>
-        <range>4.9</range>
+        <range>5.9</range>
         <burstShotCount>2</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
         <soundCast>REN7_Shot_N7ChainShotgun</soundCast>
