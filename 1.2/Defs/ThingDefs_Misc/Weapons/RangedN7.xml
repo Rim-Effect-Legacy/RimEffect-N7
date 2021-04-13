@@ -200,6 +200,11 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <modExtensions>
+      <li Class="RimEffectN7.DeflectExtension">
+        <deflectChance>0.1</deflectChance>
+      </li>
+    </modExtensions>
   </ThingDef>
   
 <!-- N7 Shotgun -->
