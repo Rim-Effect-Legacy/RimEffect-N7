@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Ability_DarkChannel.cs" />
+    <Compile Include="BlackHoleProjectile.cs" />
     <Compile Include="DeflectExtension.cs" />
     <Compile Include="HarmonyPatches\AbsorbDamage_Patch.cs" />
     <Compile Include="HarmonyPatches\HarmonyInit.cs" />
