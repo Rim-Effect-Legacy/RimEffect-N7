@@ -711,7 +711,6 @@
       <Mass>12</Mass>
       <RangedWeapon_Cooldown>4.4</RangedWeapon_Cooldown>
     </statBases>
-    <equippedAngleOffset>45</equippedAngleOffset>
     <costList>
       <Plasteel>60</Plasteel>
       <Uranium>30</Uranium>
@@ -738,11 +737,11 @@
     </thingSetMakerTags>
     <verbs>
       <li>
-        <verbClass>Verb_Shoot</verbClass>
+        <verbClass>Verb_ShootOneUse</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>REN7_Rocket_BlackHole</defaultProjectile>
         <burstShotCount>1</burstShotCount>
-        <forcedMissRadius>0.9</forcedMissRadius>
+        <forcedMissRadius>2.9</forcedMissRadius>
         <warmupTime>6</warmupTime>
         <range>49.9</range>
         <soundCast>REN7_Shot_N7BlackHoleGenerator</soundCast>
@@ -755,7 +754,7 @@
         <muzzleFlashScale>30</muzzleFlashScale>
         <ai_AvoidFriendlyFireRadius>6</ai_AvoidFriendlyFireRadius>
         <minRange>6</minRange>
-        <requireLineOfSight>false</requireLineOfSight>
+        <requireLineOfSight>true</requireLineOfSight>
       </li>
     </verbs>
     <tools>
@@ -785,7 +784,7 @@
     <label>mini black hole</label>
     <thingClass>RimEffectN7.BlackHoleProjectile</thingClass>
     <graphicData>
-      <texPath>Things/AbilityEffects/Singularity</texPath>
+      <texPath>Things/AbilityEffects/Proj_BlackHoleGun</texPath>
       <color>(255,255,255,255)</color>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>Transparent</shaderType>
@@ -793,9 +792,10 @@
     <projectile>
       <damageDef>Bomb</damageDef>
       <!-- Uses default damage from explosion def -->
-      <explosionRadius>16</explosionRadius>
-      <speed>40</speed>
-      <damageAmountBase>100</damageAmountBase>
+      <explosionRadius>9</explosionRadius>
+	  <flyOverhead>true</flyOverhead>
+      <speed>10</speed>
+      <damageAmountBase>32</damageAmountBase>
     </projectile>
   </ThingDef>
 
@@ -806,7 +806,7 @@
     <mote>
       <fadeInTime>1</fadeInTime>
       <fadeOutTime>2</fadeOutTime>
-      <solidTime>6</solidTime>
+      <solidTime>12</solidTime>
       <growthRate>0.3</growthRate>
     </mote>
     <graphicData>
