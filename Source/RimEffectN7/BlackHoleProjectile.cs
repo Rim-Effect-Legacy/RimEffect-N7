@@ -52,7 +52,7 @@ namespace RimEffectN7
         {
             this.curRotation += rotSpeed % 360f;
             foreach (Pawn pawn in this.tmpPawns)
-                if (!pawn.DestroyedOrNull() && pawn.Spawned)
+                if (pawn.IsHashIntervalTick(20) && !pawn.DestroyedOrNull() && pawn.Spawned)
                 {
                     Vector3 vector3 = this.DrawPos; // Vector3.Lerp(pawn.Position.ToVector3(), this.DrawPos, lerpSpeed);
                     pawn.Position = vector3.ToIntVec3();
@@ -70,10 +70,10 @@ namespace RimEffectN7
                 this.moteThing.exactPosition = this.DrawPos;
             }
 
-            if (this.IsHashIntervalTick(GenTicks.TickRareInterval / 25))
+            if (this.IsHashIntervalTick(GenTicks.TickRareInterval / 10))
             {
-                int rangeForGrabbingPawns = Mathf.RoundToInt(this.radius * 2);
-                IntVec2 rangeIntVec2 = new IntVec2(rangeForGrabbingPawns, rangeForGrabbingPawns);
+                int     rangeForGrabbingPawns = Mathf.RoundToInt(this.radius * 2);
+                IntVec2 rangeIntVec2          = new IntVec2(rangeForGrabbingPawns, rangeForGrabbingPawns);
 
                 foreach (IntVec3 intVec3 in GenAdj.OccupiedRect(this.DrawPos.ToIntVec3(), this.Rotation, rangeIntVec2))
                 {
@@ -101,6 +101,8 @@ namespace RimEffectN7
             foreach (Pawn tmpPawn in this.tmpPawns)
             {
                 tmpPawn.Position = DrawPos.ToIntVec3();
+                DamageInfo dinfo = new DamageInfo(DamageDefOf.Blunt, Mathf.RoundToInt(DamageAmount), 1f, instigator: this.Launcher);
+                tmpPawn.TakeDamage(dinfo);
             }
             GenExplosion.DoExplosion(this.Position, this.Map, this.radius * 2f, this.def.projectile.damageDef, this.Launcher, Mathf.RoundToInt(DamageAmount), 1f, this.def.soundImpactDefault);
             base.Explode();
