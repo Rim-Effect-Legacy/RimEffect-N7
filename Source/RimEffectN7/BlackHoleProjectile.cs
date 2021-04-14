@@ -54,7 +54,7 @@ namespace RimEffectN7
             foreach (Pawn pawn in this.tmpPawns)
                 if (!pawn.DestroyedOrNull() && pawn.Spawned)
                 {
-                    Vector3 vector3 = Vector3.Lerp(pawn.Position.ToVector3(), this.DrawPos, lerpSpeed);
+                    Vector3 vector3 = this.DrawPos; // Vector3.Lerp(pawn.Position.ToVector3(), this.DrawPos, lerpSpeed);
                     pawn.Position = vector3.ToIntVec3();
                     pawn.Notify_Teleported();
                     pawn.pather.nextCell = this.DrawPos.ToIntVec3();
