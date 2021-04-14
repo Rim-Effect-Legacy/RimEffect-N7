@@ -807,7 +807,7 @@
       <fadeInTime>1</fadeInTime>
       <fadeOutTime>2</fadeOutTime>
       <solidTime>12</solidTime>
-      <growthRate>0.3</growthRate>
+      <growthRate>0.1</growthRate>
     </mote>
     <graphicData>
       <texPath>Things/Mote/Black</texPath>
