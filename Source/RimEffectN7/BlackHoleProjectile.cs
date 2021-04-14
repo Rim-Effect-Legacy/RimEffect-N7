@@ -33,7 +33,7 @@ namespace RimEffectN7
         public override void SpawnSetup(Map map, bool respawningAfterLoad)
         {
             base.SpawnSetup(map, respawningAfterLoad);
-            this.mote = ThingDef.Named("RE_Mote_BioticDistortionSingularity");
+            this.mote = ThingDef.Named("REN7_Mote_BioticDistortionBlackhole");
         }
 
         public override Graphic Graphic

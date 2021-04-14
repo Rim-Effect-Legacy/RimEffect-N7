@@ -799,6 +799,26 @@
     </projectile>
   </ThingDef>
 
+  <ThingDef ParentName="MoteGlowDistortBackground">
+    <defName>REN7_Mote_BioticDistortionBlackhole</defName>
+    <thingClass>MoteThrownAttached</thingClass>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <mote>
+      <fadeInTime>1</fadeInTime>
+      <fadeOutTime>2</fadeOutTime>
+      <solidTime>6</solidTime>
+      <growthRate>0.3</growthRate>
+    </mote>
+    <graphicData>
+      <texPath>Things/Mote/Black</texPath>
+      <shaderParameters>
+        <_distortionIntensity>0.08</_distortionIntensity>
+        <_brightnessMultiplier>3</_brightnessMultiplier>
+      </shaderParameters>
+      <drawSize>2.5</drawSize>
+    </graphicData>
+  </ThingDef>
+
   <!-- N7 Chain Shotgun -->
 
   <ThingDef ParentName="BaseHumanMakeableGun">
