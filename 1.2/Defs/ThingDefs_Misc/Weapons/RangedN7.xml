@@ -512,7 +512,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>RE_Gun_N7Pistol</defName>
     <label>N7 pistol</label>
-    <description>A mass accelerator autopistol. Firing slugs lightened by mass effect fields using precision electromagnetism, its projectiles shatter on impact to increase the damage to the target.</description>
+    <description>A mass accelerator autopistol. Firing slugs lightened by mass effect fields using precision electromagnetism, its projectiles shatter on impact to increase the damage to the target. \n\nThe Eagle is a fully automatic 3-burst pistol. While it is named after the famed Desert Eagle, its strengths lie not in its single-shot firepower, but in its ability to provide sustained automatic fire.</description>
     <techLevel>Ultra</techLevel>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/N7Pistol</texPath>
