@@ -26,7 +26,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>REN7_Gun_N7BattleRifle</defName>
     <label>N7 battle rifle</label>
-    <description>tbd.</description>
+    <description>A mass accelerator heavy LMG. Firing slugs lightened by mass effect fields using precision electromagnetism, its projectiles shatter on impact to increase the damage to the target. \n\nThe Valkyrie is a two-burst assault rifle with extreme range and good accuracy, but longer cooldown between shots. It is highly prized on the black market for it’s balance and effectiveness.</description>
     <techLevel>Ultra</techLevel>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/N7BattleRifle</texPath>
@@ -125,7 +125,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>REN7_Gun_N7LMG</defName>
     <label>N7 LMG</label>
-    <description>tbd.</description>
+    <description>A mass accelerator heavy LMG. Firing slugs lightened by mass effect fields using precision electromagnetism, its projectiles shatter on impact to increase the damage to the target. \n\nThe Typhoon is an incredibly high penetration LMG that also applies a 10% chance to deflect any shot.</description>
     <techLevel>Ultra</techLevel>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/N7LMG</texPath>
@@ -228,7 +228,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>REN7_Gun_N7Shotgun</defName>
     <label>N7 shotgun</label>
-    <description>tbd.</description>
+    <description>A mass accelerator heavy shotgun. Firing a spray of pellets lightened by mass effect fields using precision electromagnetism, its projectiles further shatter on impact to increase the damage to the target. \n\nThe Crusader shotgun sacrifices close range damage for the ability to fire at targets much farther away with effectiveness.</description>
     <techLevel>Ultra</techLevel>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/N7Shotgun</texPath>
@@ -319,7 +319,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>REN7_Gun_N7DMR</defName>
     <label>N7 DMR</label>
-    <description>tbd.</description>
+    <description>A mass accelerator designated marksman rifle. Firing slugs lightened by mass effect fields using precision electromagnetism, its projectiles shatter on impact to increase the damage to the target. \n\nThe Valiant is a 3 round burst rifle sacrificing some damage for extreme range.</description>
     <techLevel>Ultra</techLevel>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/N7DMR</texPath> 
@@ -425,7 +425,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>REN7_Gun_N7SMG</defName>
     <label>N7 SMG</label>
-    <description>tbd.</description>
+    <description>A mass accelerator submachine gun. Firing slugs lightened by mass effect fields using precision electromagnetism, its projectiles shatter on impact to increase the damage to the target. \n\nThe Hurricane rapid-firing 4 burst SMG, one of the fastest-firing weapons ever produced. While some militaries find it to be too inaccurate, the N7 SpecOps soldiers prize it for its overwhelming amount of suppressive fire.</description>
     <techLevel>Ultra</techLevel>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/N7SMG</texPath>
@@ -499,7 +499,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>RE_Gun_N7Pistol</defName>
     <label>N7 pistol</label>
-    <description>tbd.</description>
+    <description>A mass accelerator autopistol. Firing slugs lightened by mass effect fields using precision electromagnetism, its projectiles shatter on impact to increase the damage to the target.</description>
     <techLevel>Ultra</techLevel>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/N7Pistol</texPath>
@@ -597,7 +597,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>REN7_Gun_N7AntimaterielRifle</defName>
     <label>N7 anti-materiel rifle</label>
-    <description>tbd.</description>
+    <description>A mass accelerator anti-materiel rifle. Firing slugs lightened by mass effect fields using precision electromagnetism, its projectiles shatter on impact to increase the damage to the target. \n\nThe Black Widow is a very powerful armor piercing sniper rifle. A modified version of the Alliance Antimateriel Rifle with slightly less damage and shorter cooldown.</description>
     <techLevel>Ultra</techLevel>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/N7AntimaterielRifle</texPath>
@@ -679,11 +679,11 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>REN7_Gun_N7BlackHoleGenerator</defName>
     <label>N7 black hole generator</label>
-    <description>tbd.</description>
+    <description>A single shot black hole gun. Creating an extremely powerful but unstable mass effect field, the rapidly-increasing gravity near the singularity's event horizon rips objects apart. \n\nThe M-490 Blackstorm fires a single slow projectile, but it draws all enemies into it, dealing heavy damage, and then explodes when it reaches its maximum distance. Absolutely devastating to groups of enemies.</description>
     <tickerType>Normal</tickerType>
     <techLevel>Ultra</techLevel>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/N7BlackHoleGun</texPath> <!-- needs to be changed to N7BlackHoleGenerator when it's done -->
+      <texPath>Things/Item/Equipment/WeaponRanged/N7BlackHoleGun</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.22</drawSize>
     </graphicData>
@@ -785,7 +785,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>REN7_Gun_N7ChainShotgun</defName>
     <label>N7 chain shotgun</label>
-    <description>tbd.</description>
+    <description>A mass accelerator light shotgun. Firing spray of pellets lightened by mass effect fields using precision electromagnetism, its projectiles shatter on impact to increase the damage to the target. \n\nThe Piranha is a powerful 2-burst shotgun with low cooldown but extremely short range. Designed for use by weaker soldiers who couldn’t handle the heavy recoil of other shotguns.</description>
     <techLevel>Ultra</techLevel>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/N7ChainShotgun</texPath>

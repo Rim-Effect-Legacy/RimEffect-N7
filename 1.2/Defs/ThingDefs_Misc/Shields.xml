@@ -52,7 +52,7 @@
     <ThingDef ParentName="RimEffect_BaseShield">
         <defName>REN7_Omnishield</defName>
         <label>omni shield</label>
-        <description>tbd</description>
+        <description>An omni-shield capable of intercepting a majority of ranged and melee attacks.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/Shield/OmniShield/OmniShield</texPath>
             <graphicClass>Graphic_Single</graphicClass>

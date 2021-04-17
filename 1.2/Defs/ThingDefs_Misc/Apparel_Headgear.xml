@@ -4,7 +4,7 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>REN7_Apparel_N7HeavyHelmet</defName>
     <label>N7 heavy helmet</label>
-    <description>tbd.</description>
+    <description>A heavy helmet with high armor.</description>
     <techLevel>Ultra</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -69,7 +69,7 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>RE_Apparel_N7AdeptMask</defName>
     <label>N7 adept mask</label>
-    <description>tbd.</description>
+    <description>A mask with a hood. Greatly increases biotic energy regeneration rate.</description>
     <techLevel>Ultra</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -138,7 +138,7 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>REN7_Apparel_N7Helmet</defName>
     <label>N7 helmet</label>
-    <description>tbd.</description>
+    <description>A helmet with decent armor. Makes the wearer completely resistant to toxins and psychic effects.</description>
     <techLevel>Ultra</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -176,6 +176,10 @@
       <ComponentSpacer>3</ComponentSpacer>
       <Plasteel>60</Plasteel>
     </costList>
+    <equippedStatOffsets>
+      <PsychicSensitivity>-1.0</PsychicSensitivity>
+	  <ToxicSensitivity>-1.0</ToxicSensitivity>
+    </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
         <li>FullHead</li>

@@ -53,7 +53,7 @@
         <defName>REN7_DarkChannelHediff</defName>
         <label>dark channel</label>
         <labelNoun>dark channel</labelNoun>
-        <description>Painful biotic field</description>
+        <description>Painful biotic field that latches onto nearby targets if the target falls unconscious.</description>
         <comps>
             <li Class="HediffCompProperties_Disappears">
                 <disappearsAfterTicks>6000~6000</disappearsAfterTicks>
@@ -100,7 +100,7 @@
     <HediffDef ParentName="DiseaseBase">
         <defName>REN7_DarkChannelPainHediff</defName>
         <label>pain caused by dark channel</label>
-        <description>Pain.</description>
+        <description>Painful biotic field that latches onto nearby targets if the target falls unconscious.</description>
         <stages>
             <li>
                 <label>minor</label>

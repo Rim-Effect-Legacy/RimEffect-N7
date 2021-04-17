@@ -46,7 +46,7 @@
   <ThingDef ParentName="REN7_BaseMeleeWeapon_Sharp_Quality">
     <defName>REN7_MeleeWeapon_N7Blade</defName>
     <label>N7 blade</label>
-    <description>tbd.</description>
+    <description>A light monomolecular sword with high attack speed and armor penetration. \n\nThe favored weapon of the fearsome N7 Shadow Infiltrators. These blades are devastating in their hands, as they hide and then strike from the shadows in extreme close range.</description>
     <soundInteract>REN7_Interact_N7Blade</soundInteract>
     <meleeHitSound>REN7_MeleeHit_N7Blade</meleeHitSound>
     <equippedAngleOffset>-65</equippedAngleOffset>

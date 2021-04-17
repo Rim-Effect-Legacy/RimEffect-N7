@@ -4,7 +4,7 @@
   <ThingDef ParentName="ArmorMachineableBase">
     <defName>REN7_Apparel_N7HeavyArmor</defName>
     <label>N7 heavy armor</label>
-    <description>tbd.</description>
+    <description>A suit of incredibly damage-resistant powered armor, with a powerful overshield. It slows down the user when equipped, but provides best in class protection. Driven by eezo-assisted actuators, the N7 Destroyer soldiers carry heavy weapons onto the battlefield that no one else can match.</description>
     <techLevel>Ultra</techLevel>
     <thingClass>RimEffect.SpectreArmor</thingClass>
     <recipeMaker>
@@ -96,7 +96,7 @@
   <ThingDef ParentName="ArmorMachineableBase">
     <defName>REN7_Apparel_N7AdeptSuit</defName>
     <label>N7 adept suit</label>
-    <description>tbd.</description>
+    <description>A full-body jumpsuit. The Fury suit greatly increases the biotic energy reserves of the user. \n\nThe N7 Furies are a terrifying and unpredictable sight on the battlefield. These operatives wind an unpredictable path on the battlefield, moving in and out of combat before returning to unleash a sweeping biotic attack on their unsuspecting targets.</description>
     <techLevel>Ultra</techLevel>
     <thingClass>RimEffect.SpectreArmor</thingClass>
     <recipeMaker>
@@ -178,7 +178,7 @@
   <ThingDef ParentName="ArmorMachineableBase">
     <defName>REN7_Apparel_N7Armor</defName>
     <label>N7 armor</label>
-    <description>tbd.</description>
+    <description>A suit of powered armor with a powerful overshield. Armor ratings are decent. It also increases pain shock threshold and mental break threshold. \n\nThe bulwark of the N7 special forces, the N7 Paladin Sentinels are a welcome sight by all members of the alliance military. One of them on the battlefield can hold the line against all comers, and drastically reduces friendly casualty statistics.</description>
     <techLevel>Ultra</techLevel>
     <thingClass>RimEffect.SpectreArmor</thingClass>
     <recipeMaker>
@@ -211,6 +211,8 @@
     </statBases>
     <equippedStatOffsets>
       <MoveSpeed>-0.4</MoveSpeed>
+	  <PainShockThreshold>0.10</PainShockThreshold>
+	  <MentalBreakThreshold>-0.05</MentalBreakThreshold>
     </equippedStatOffsets>
     <thingCategories>
       <li>ApparelArmor</li>
