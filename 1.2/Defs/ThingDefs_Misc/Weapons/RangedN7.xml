@@ -26,7 +26,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>REN7_Gun_N7BattleRifle</defName>
     <label>N7 battle rifle</label>
-    <description>A mass accelerator heavy LMG. Firing slugs lightened by mass effect fields using precision electromagnetism, its projectiles shatter on impact to increase the damage to the target. \n\nThe Valkyrie is a two-burst assault rifle with extreme range and good accuracy, but longer cooldown between shots. It is highly prized on the black market for it’s balance and effectiveness.</description>
+    <description>A mass accelerator battle rifle. Firing slugs lightened by mass effect fields using precision electromagnetism, its projectiles shatter on impact to increase the damage to the target. \n\nThe Valkyrie is a two-burst assault rifle with extreme range and good accuracy, but longer cooldown between shots. It is highly prized on the black market for it’s balance and effectiveness.\n\nThis weapon has a 10% chance to deal double damage.</description>
     <techLevel>Ultra</techLevel>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/N7BattleRifle</texPath>
@@ -127,7 +127,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>REN7_Gun_N7LMG</defName>
     <label>N7 LMG</label>
-    <description>A mass accelerator heavy LMG. Firing slugs lightened by mass effect fields using precision electromagnetism, its projectiles shatter on impact to increase the damage to the target. \n\nThe Typhoon is an incredibly high penetration LMG that also applies a 10% chance to deflect any shot.</description>
+    <description>A mass accelerator heavy LMG. Firing slugs lightened by mass effect fields using precision electromagnetism, its projectiles shatter on impact to increase the damage to the target. \n\nThe Typhoon is an incredibly high penetration LMG that also applies a 10% chance to deflect any shot.\n\nThis weapon has a 10% chance to deal double damage.</description>
     <techLevel>Ultra</techLevel>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/N7LMG</texPath>
@@ -154,8 +154,8 @@
       </recipeUsers>
     </recipeMaker>
     <costList>
-      <Plasteel>80</Plasteel>
-      <ComponentSpacer>5</ComponentSpacer>
+      <Plasteel>90</Plasteel>
+      <ComponentSpacer>6</ComponentSpacer>
       <RE_ElementZero>5</RE_ElementZero>
     </costList>
     <thingSetMakerTags>
@@ -173,7 +173,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>REN7_Bullet_N7LMG</defaultProjectile>
         <warmupTime>2.0</warmupTime>
-        <range>34.9</range>
+        <range>24.9</range>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
         <burstShotCount>8</burstShotCount>
         <soundCast>REN7_Shot_N7LMG</soundCast>
@@ -236,7 +236,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>REN7_Gun_N7Shotgun</defName>
     <label>N7 shotgun</label>
-    <description>A mass accelerator heavy shotgun. Firing a spray of pellets lightened by mass effect fields using precision electromagnetism, its projectiles further shatter on impact to increase the damage to the target. \n\nThe Crusader shotgun sacrifices close range damage for the ability to fire at targets much farther away with effectiveness.</description>
+    <description>A mass accelerator heavy shotgun. Firing a spray of pellets lightened by mass effect fields using precision electromagnetism, its projectiles further shatter on impact to increase the damage to the target. \n\nThe Crusader shotgun sacrifices close range damage for the ability to fire at targets much farther away with effectiveness.\n\nThis weapon has a 10% chance to deal double damage.</description>
     <techLevel>Ultra</techLevel>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/N7Shotgun</texPath>
@@ -328,7 +328,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>REN7_Gun_N7DMR</defName>
     <label>N7 DMR</label>
-    <description>A mass accelerator designated marksman rifle. Firing slugs lightened by mass effect fields using precision electromagnetism, its projectiles shatter on impact to increase the damage to the target. \n\nThe Valiant is a 3 round burst rifle sacrificing some damage for extreme range.</description>
+    <description>A mass accelerator designated marksman rifle. Firing slugs lightened by mass effect fields using precision electromagnetism, its projectiles shatter on impact to increase the damage to the target. \n\nThe Valiant is a 3 round burst rifle sacrificing some damage for extreme range.\n\nThis weapon has a 10% chance to deal double damage.</description>
     <techLevel>Ultra</techLevel>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/N7DMR</texPath>
@@ -437,7 +437,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>REN7_Gun_N7SMG</defName>
     <label>N7 SMG</label>
-    <description>A mass accelerator submachine gun. Firing slugs lightened by mass effect fields using precision electromagnetism, its projectiles shatter on impact to increase the damage to the target. \n\nThe Hurricane rapid-firing 4 burst SMG, one of the fastest-firing weapons ever produced. While some militaries find it to be too inaccurate, the N7 SpecOps soldiers prize it for its overwhelming amount of suppressive fire.</description>
+    <description>A mass accelerator submachine gun. Firing slugs lightened by mass effect fields using precision electromagnetism, its projectiles shatter on impact to increase the damage to the target. \n\nThe Hurricane rapid-firing 4 burst SMG, one of the fastest-firing weapons ever produced. While some militaries find it to be too inaccurate, the N7 SpecOps soldiers prize it for its overwhelming amount of suppressive fire.\n\nThis weapon has a 10% chance to deal double damage.</description>
     <techLevel>Ultra</techLevel>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/N7SMG</texPath>
@@ -512,7 +512,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>RE_Gun_N7Pistol</defName>
     <label>N7 pistol</label>
-    <description>A mass accelerator autopistol. Firing slugs lightened by mass effect fields using precision electromagnetism, its projectiles shatter on impact to increase the damage to the target. \n\nThe Eagle is a fully automatic 3-burst pistol. While it is named after the famed Desert Eagle, its strengths lie not in its single-shot firepower, but in its ability to provide sustained automatic fire.</description>
+    <description>A mass accelerator autopistol. Firing slugs lightened by mass effect fields using precision electromagnetism, its projectiles shatter on impact to increase the damage to the target. \n\nThe Eagle is a fully automatic 3-burst pistol. While it is named after the famed Desert Eagle, its strengths lie not in its single-shot firepower, but in its ability to provide sustained automatic fire.\n\nThis weapon has a 10% chance to deal double damage.</description>
     <techLevel>Ultra</techLevel>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/N7Pistol</texPath>
@@ -612,7 +612,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>REN7_Gun_N7AntimaterielRifle</defName>
     <label>N7 anti-materiel rifle</label>
-    <description>A mass accelerator anti-materiel rifle. Firing slugs lightened by mass effect fields using precision electromagnetism, its projectiles shatter on impact to increase the damage to the target. \n\nThe Black Widow is a very powerful armor piercing sniper rifle. A modified version of the Alliance Antimateriel Rifle with slightly less damage and shorter cooldown.</description>
+    <description>A mass accelerator anti-materiel rifle. Firing slugs lightened by mass effect fields using precision electromagnetism, its projectiles shatter on impact to increase the damage to the target. \n\nThe Black Widow is a very powerful armor piercing sniper rifle. A modified version of the Alliance Antimateriel Rifle with slightly less damage and shorter cooldown.\n\nThis weapon has a 10% chance to deal double damage.</description>
     <techLevel>Ultra</techLevel>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/N7AntimaterielRifle</texPath>
@@ -713,8 +713,8 @@
     </statBases>
     <costList>
       <Plasteel>60</Plasteel>
-      <Uranium>30</Uranium>
-      <ComponentSpacer>12</ComponentSpacer>
+      <Uranium>10</Uranium>
+      <ComponentSpacer>4</ComponentSpacer>
       <RE_ElementZero>30</RE_ElementZero>
     </costList>
     <recipeMaker>
@@ -824,7 +824,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>REN7_Gun_N7ChainShotgun</defName>
     <label>N7 chain shotgun</label>
-    <description>A mass accelerator light shotgun. Firing spray of pellets lightened by mass effect fields using precision electromagnetism, its projectiles shatter on impact to increase the damage to the target. \n\nThe Piranha is a powerful 2-burst shotgun with low cooldown but extremely short range. Designed for use by weaker soldiers who couldn’t handle the heavy recoil of other shotguns.</description>
+    <description>A mass accelerator light shotgun. Firing spray of pellets lightened by mass effect fields using precision electromagnetism, its projectiles shatter on impact to increase the damage to the target. \n\nThe Piranha is a powerful 2-burst shotgun with low cooldown but extremely short range. Designed for use by weaker soldiers who couldn’t handle the heavy recoil of other shotguns.\n\nThis weapon has a 10% chance to deal double damage.</description>
     <techLevel>Ultra</techLevel>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/N7ChainShotgun</texPath>

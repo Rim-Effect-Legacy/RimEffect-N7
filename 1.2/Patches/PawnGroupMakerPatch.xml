@@ -9,7 +9,8 @@
                 <!-- N7 guys -->
                 <kindDef>Combat</kindDef>
                 <options>
-                    <REN7_N7Agent>5</REN7_N7Agent>
+                    <REN7_N7AgentAdept>5</REN7_N7AgentAdept>
+					<REN7_N7AgentEngineer>5</REN7_N7AgentEngineer>
                 </options>
             </li>
 		</value>
