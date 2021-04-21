@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Save Our Ship 2</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "REN7_Apparel_N7HeavyArmor"]/apparel/tags</xpath>
+					<value>
+						<li>EVA</li>
+					</value>
+				</li>
+			
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "REN7_Apparel_N7AdeptSuit"]/apparel/tags</xpath>
+					<value>
+						<li>EVA</li>
+					</value>
+				</li>
+				
+				
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "REN7_Apparel_N7Armor"]/apparel/tags</xpath>
+					<value>
+						<li>EVA</li>
+					</value>
+				</li>
+				
+				
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "REN7_Apparel_N7HeavyHelmet"]/apparel/tags</xpath>
+					<value>
+						<li>EVA</li>
+					</value>
+				</li>
+				
+				
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "RE_Apparel_N7AdeptMask"]/apparel/tags</xpath>
+					<value>
+						<li>EVA</li>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "REN7_Apparel_N7Helmet"]/apparel/tags</xpath>
+					<value>
+						<li>EVA</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+
+</Patch>
+
