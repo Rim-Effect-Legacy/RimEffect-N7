@@ -41,6 +41,7 @@
     <costList>
       <ComponentSpacer>3</ComponentSpacer>
       <Plasteel>75</Plasteel>
+	  <RE_ElementZero>10</RE_ElementZero>
     </costList>
     <apparel>
       <bodyPartGroups>
@@ -175,6 +176,7 @@
     <costList>
       <ComponentSpacer>3</ComponentSpacer>
       <Plasteel>60</Plasteel>
+	  <RE_ElementZero>5</RE_ElementZero>
     </costList>
     <equippedStatOffsets>
 	  <ToxicSensitivity>-1.0</ToxicSensitivity>

@@ -49,6 +49,7 @@
       <ComponentSpacer>10</ComponentSpacer>
       <Plasteel>180</Plasteel>
       <Uranium>60</Uranium>
+	  <RE_ElementZero>15</RE_ElementZero>
     </costList>
     <apparel>
       <bodyPartGroups>
@@ -223,6 +224,7 @@
       <ComponentSpacer>6</ComponentSpacer>
       <Plasteel>120</Plasteel>
       <Uranium>40</Uranium>
+	  <RE_ElementZero>10</RE_ElementZero>
     </costList>
     <apparel>
       <bodyPartGroups>
