@@ -54,7 +54,7 @@
     <costList>
       <Plasteel>75</Plasteel>
       <ComponentSpacer>4</ComponentSpacer>
-      <RE_ElementZero>5</RE_ElementZero>
+      <RE_ElementZero>8</RE_ElementZero>
     </costList>
     <thingSetMakerTags>
       <li>REN7_N7</li>
@@ -156,7 +156,7 @@
     <costList>
       <Plasteel>90</Plasteel>
       <ComponentSpacer>6</ComponentSpacer>
-      <RE_ElementZero>5</RE_ElementZero>
+      <RE_ElementZero>8</RE_ElementZero>
     </costList>
     <thingSetMakerTags>
       <li>REN7_N7</li>
@@ -264,7 +264,7 @@
     <costList>
       <Plasteel>75</Plasteel>
       <ComponentSpacer>4</ComponentSpacer>
-      <RE_ElementZero>5</RE_ElementZero>
+      <RE_ElementZero>8</RE_ElementZero>
     </costList>
     <weaponTags Inherit='False'>
       <li>N7Gun</li>
@@ -363,7 +363,7 @@
     <costList>
       <Plasteel>85</Plasteel>
       <ComponentSpacer>5</ComponentSpacer>
-      <RE_ElementZero>5</RE_ElementZero>
+      <RE_ElementZero>8</RE_ElementZero>
     </costList>
     <weaponTags Inherit='False'>
       <li>N7GunSniper</li>
@@ -465,7 +465,7 @@
     <costList>
       <Plasteel>55</Plasteel>
       <ComponentSpacer>3</ComponentSpacer>
-      <RE_ElementZero>5</RE_ElementZero>
+      <RE_ElementZero>8</RE_ElementZero>
     </costList>
     <weaponTags Inherit='False'>
       <li>N7GunLight</li>
@@ -540,7 +540,7 @@
     <costList>
       <Plasteel>45</Plasteel>
       <ComponentSpacer>2</ComponentSpacer>
-      <RE_ElementZero>5</RE_ElementZero>
+      <RE_ElementZero>8</RE_ElementZero>
     </costList>
     <weaponTags Inherit='False'>
       <li>AllianceGunLight</li>
@@ -650,7 +650,7 @@
     <costList>
       <Plasteel>120</Plasteel>
       <ComponentSpacer>4</ComponentSpacer>
-      <RE_ElementZero>10</RE_ElementZero>
+      <RE_ElementZero>13</RE_ElementZero>
     </costList>
     <weaponTags Inherit='False'>
       <li>N7GunHeavy</li>
@@ -715,7 +715,7 @@
       <Plasteel>60</Plasteel>
       <Uranium>10</Uranium>
       <ComponentSpacer>4</ComponentSpacer>
-      <RE_ElementZero>30</RE_ElementZero>
+      <RE_ElementZero>35</RE_ElementZero>
     </costList>
     <recipeMaker>
       <recipeUsers>
@@ -852,7 +852,7 @@
     <costList>
       <Plasteel>85</Plasteel>
       <ComponentSpacer>4</ComponentSpacer>
-      <RE_ElementZero>10</RE_ElementZero>
+      <RE_ElementZero>13</RE_ElementZero>
     </costList>
     <weaponTags Inherit='False'>
       <li>N7GunHeavy</li>
