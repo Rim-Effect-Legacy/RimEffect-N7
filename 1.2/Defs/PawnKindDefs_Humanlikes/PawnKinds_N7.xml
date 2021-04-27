@@ -13,14 +13,14 @@
     <isFighter>true</isFighter>
     <chemicalAddictionChance>0.05</chemicalAddictionChance>
     <backstoryCryptosleepCommonality>0.05</backstoryCryptosleepCommonality>
-    <backstoryFiltersOverride>
-      <li>
-        <categories>
-          <li>Offworld</li>
-          <li>Outsider</li>
-        </categories>
-      </li>
-    </backstoryFiltersOverride>
+        <backstoryFiltersOverride inherit = "False">
+            <li>
+                <categories>
+                    <li>N7</li>
+                </categories>
+                <commonality>1.0</commonality>
+            </li>
+        </backstoryFiltersOverride>
     <requiredWorkTags>
       <li>Violent</li>
       <li>Caring</li>
@@ -81,14 +81,14 @@
     <isFighter>true</isFighter>
     <chemicalAddictionChance>0.05</chemicalAddictionChance>
     <backstoryCryptosleepCommonality>0.05</backstoryCryptosleepCommonality>
-    <backstoryFiltersOverride>
-      <li>
-        <categories>
-          <li>Offworld</li>
-          <li>Outsider</li>
-        </categories>
-      </li>
-    </backstoryFiltersOverride>
+        <backstoryFiltersOverride inherit = "False">
+            <li>
+                <categories>
+                    <li>N7</li>
+                </categories>
+                <commonality>1.0</commonality>
+            </li>
+        </backstoryFiltersOverride>
     <requiredWorkTags>
       <li>Violent</li>
       <li>Caring</li>
