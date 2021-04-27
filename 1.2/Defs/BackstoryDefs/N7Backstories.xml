@@ -244,7 +244,7 @@
     </skillGains>
     <forcedTraits>
         <li>
-            <defname>RE_BioticRecoveryOffset</defname>
+            <defName>RE_BioticRecoveryOffset</defName>
             <degree>1</degree>
             <chance>100</chance>
         </li>
@@ -439,7 +439,6 @@
       </li> 
     </skillGains>
     <workDisables>
-	<li>Social</li>
     </workDisables>
 </AlienRace.BackstoryDef>
 
