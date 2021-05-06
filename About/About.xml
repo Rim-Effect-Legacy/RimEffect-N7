@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Rim-Effect: N7 beta 1</name>
+	<name>Rim-Effect: N7</name>
 	<author>Vanilla Expanded Team and Co.</author>
 	<supportedVersions><li>1.2</li></supportedVersions>
 	<packageId>RimEffect.N7</packageId>
@@ -30,11 +30,14 @@
 		<li>erdelf.HumanoidAlienRaces</li>
 		<li>RimEffect.Core</li>
 	</loadAfter>
-	<description>Rim Effect: N7 features a number of unique, powerful weapons and armors from the N7 armory. It further enhances Systems Alliance faction with new pawn types that arrive in rare raids - N7 operatives, capable of using a host of abilities and game-changing weapons, sporting strong armors, omni-shields and their skill set, eclipsing that of normal Alliance footsoldiers.
+	<description>Rim Effect is a large overhaul mod series, adding the story, races, objects, and conflicts of Mass Effect universe into RimWorld. The Mass Effect elements are not meant to stand out, and as such are blended into the RimWorld style by utilising the same naming conventions and writing styles.
 
-This pack is a part of the Rim Effect mod series and requires Rim Effect: Core to work.
+Much like Vanilla Factions Expanded, the Rim Effect mod series comes divided into sub-modules, firstly to allow the players to pick exactly what elements they want in their games, secondly to ease the production and design process.
 
+Rim Effect N7 is an add-on module to the Core module. It introduces a new pawn kind - N7 operative, capable of utilising powerful biotic and tech abilities. N7 is a vocational code in the Systems Alliance military. The "N" designates special forces and the "7" refers to the highest level of proficiency. It applies to Alliance personnel who have graduated from the Interplanetary Combatives Training (ICT) program.
 
-Do not share, redistribute, publish or use the assets from this mod without prior approval.
+These soldiers use specialised gear including weapons and armors based on those from Mass Effect games. Mechanic-wise, N7 armors come with unique abilities, whilst N7 weapons have a 10% chance to deal devastating double damage. This equipment is however tied to a special research project and is expensive to make.
+
+CC BY-NC-ND 4.0
 	</description>
 </ModMetaData>
