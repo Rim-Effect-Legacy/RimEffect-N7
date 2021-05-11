@@ -139,7 +139,7 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>REN7_Apparel_N7Helmet</defName>
     <label>N7 helmet</label>
-    <description>A helmet with decent armor. Makes the wearer completely resistant to toxins and psychic effects.</description>
+    <description>A helmet with decent armor. Makes the wearer completely resistant to toxins.</description>
     <techLevel>Ultra</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
