@@ -86,7 +86,7 @@
         <showOnHostiles>true</showOnHostiles>
         <showOnNeutralInCombat>true</showOnNeutralInCombat>
         <shieldTexPath>UI/AbilityShields/ShieldTech</shieldTexPath>
-        <EnergyShieldRechargeRate>0.03</EnergyShieldRechargeRate>
+        <EnergyShieldRechargeRate>0.1</EnergyShieldRechargeRate>
         <EnergyShieldEnergyMax>100</EnergyShieldEnergyMax>
         <minShieldSize>1.4</minShieldSize>
         <maxShieldSize>1.8</maxShieldSize>
