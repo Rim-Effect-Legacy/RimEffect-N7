@@ -80,7 +80,7 @@
       <li Class="CompProperties_BiocodableApparel"/>
       <li Class="VFEMech.CompProperties_ShieldMechBubble">
         <compClass>VFEMech.ShieldMechBubble</compClass>
-        <blockRangedAttack>false</blockRangedAttack>
+        <blockRangedAttack>true</blockRangedAttack>
         <blockMeleeAttack>false</blockMeleeAttack>
         <showWhenDrafted>true</showWhenDrafted>
         <showOnHostiles>true</showOnHostiles>
