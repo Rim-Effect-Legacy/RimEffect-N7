@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Defs>
+
+  <SoundDef>
+    <defName>REN7_Interact_N7BattleRifle</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/N7BattleRifle/N7BattleRifle_Interact</clipPath>
+          </li>
+        </grains>
+        <volumeRange>25~25</volumeRange>      
+        <pitchRange>0.8728257~1.1</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>REN7_Shot_N7BattleRifle</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Things/N7BattleRifle/N7BattleRifle_Shot</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>45.2941~45.2941</volumeRange>      
+        <pitchRange>1.091765~1</pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>REN7_Interact_N7AntiMaterielRifle</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/N7AntiMaterielRifle/N7AntiMaterielRifle_Interact</clipPath>
+          </li>
+        </grains>
+        <volumeRange>25~25</volumeRange>      
+        <pitchRange>0.8728257~1.1</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>REN7_Shot_N7AntiMaterielRifle</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Things/N7AntiMaterielRifle/N7AntiMaterielRifle_Shot</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>45.2941~45.2941</volumeRange>      
+        <pitchRange>1.091765~1</pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>REN7_Interact_N7BlackHoleGenerator</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/N7BlackHoleGenerator/N7BlackHoleGenerator_Interact</clipPath>
+          </li>
+        </grains>
+        <volumeRange>25~25</volumeRange>      
+        <pitchRange>0.8728257~1.1</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>REN7_Shot_N7BlackHoleGenerator</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Things/N7BlackHoleGenerator/N7BlackHoleGenerator_Shot</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>45.2941~45.2941</volumeRange>      
+        <pitchRange>1.091765~1</pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>REN7_Interact_N7ChainShotgun</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/N7ChainShotgun/N7ChainShotgun_Interact</clipPath>
+          </li>
+        </grains>
+        <volumeRange>25~25</volumeRange>      
+        <pitchRange>0.8728257~1.1</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>REN7_Shot_N7ChainShotgun</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Things/N7ChainShotgun/N7ChainShotgun_Shot</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>45.2941~45.2941</volumeRange>      
+        <pitchRange>1.091765~1</pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>REN7_Interact_N7DMR</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/N7DMR/N7DMR_Interact</clipPath>
+          </li>
+        </grains>
+        <volumeRange>25~25</volumeRange>      
+        <pitchRange>0.8728257~1.1</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>REN7_Shot_N7DMR</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Things/N7DMR/N7DMR_Shot</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>45.2941~45.2941</volumeRange>      
+        <pitchRange>1.091765~1</pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>REN7_Interact_N7LMG</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/N7LMG/N7LMG_Interact</clipPath>
+          </li>
+        </grains>
+        <volumeRange>25~25</volumeRange>      
+        <pitchRange>0.8728257~1.1</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>REN7_Shot_N7LMG</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Things/N7LMG/N7LMG_Shot</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>45.2941~45.2941</volumeRange>      
+        <pitchRange>1.091765~1</pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>REN7_Interact_N7Pistol</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/N7Pistol/N7Pistol_Interact</clipPath>
+          </li>
+        </grains>
+        <volumeRange>35~45</volumeRange>      
+        <pitchRange>0.8728257~1.1</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>REN7_Shot_N7Pistol</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Things/N7Pistol/N7Pistol_Shot</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>45.2941~45.2941</volumeRange>      
+        <pitchRange>1.091765~1</pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>REN7_Interact_N7Shotgun</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/N7Shotgun/N7Shotgun_Interact</clipPath>
+          </li>
+        </grains>
+        <volumeRange>25~25</volumeRange>      
+        <pitchRange>0.8728257~1.1</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>REN7_Shot_N7Shotgun</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Things/N7Shotgun/N7Shotgun_Shot</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>45.2941~45.2941</volumeRange>      
+        <pitchRange>1.091765~1</pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  
+  <SoundDef>
+    <defName>REN7_Interact_N7SMG</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/N7SMG/N7SMG_Interact</clipPath>
+          </li>
+        </grains>
+        <volumeRange>25~25</volumeRange>      
+        <pitchRange>0.8728257~1.1</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>REN7_Shot_N7SMG</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Things/N7SMG/N7SMG_Shot</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>45.2941~45.2941</volumeRange>      
+        <pitchRange>1.091765~1</pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>REN7_MeleeHit_N7Blade</defName>  
+    <context>MapOnly</context> 
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Things/N7Blade/AttackA_N7Blade</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>17~20</volumeRange>      
+        <pitchRange>0.9152174~1.169566</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>REN7_Interact_N7Blade</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/N7Blade/Interact_N7Blade</clipPath>
+          </li>
+        </grains>
+        <volumeRange>32~32</volumeRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+</Defs>

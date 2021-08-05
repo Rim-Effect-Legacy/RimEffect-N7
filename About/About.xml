@@ -2,7 +2,10 @@
 <ModMetaData>
 	<name>Rim-Effect: N7</name>
 	<author>Vanilla Expanded Team and Co.</author>
-	<supportedVersions><li>1.2</li></supportedVersions>
+	<supportedVersions>
+	    <li>1.2</li>
+		<li>1.3</li>
+	</supportedVersions>
 	<packageId>RimEffect.N7</packageId>
     <modDependencies>
 		<li>

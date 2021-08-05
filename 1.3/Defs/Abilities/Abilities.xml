@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <RimEffect.AbilityDef>
+        <defName>REN7_DarkChannel</defName>
+        <label>dark channel</label>
+        <description>Plague an opponent with a persistent, painful biotic field that latches onto nearby targets if the target falls unconscious.</description>
+        <abilityClass>RimEffect.Ability_ShootProjectile</abilityClass>
+        <targetMode>Pawn</targetMode>
+        <castTime>60</castTime>
+        <range>24</range>
+        <iconPath>Things/Abilities/Biotic_DarkChannel</iconPath>
+        <power>6</power>
+        <castSound>REN7_Biotic_DarkChannel</castSound>
+        <castMote>Mote_BlastDry</castMote>
+        <targetMotes>
+            <li>RE_Mote_BioticDistortion</li>
+        </targetMotes>
+        <requiredHediff>
+            <hediffDef>RE_BioticAmpHediff</hediffDef>
+            <minimumLevel>0</minimumLevel>
+        </requiredHediff>
+        <modExtensions>
+            <li Class="RimEffect.AbilityExtension_Projectile">
+                <projectile>REN7_DarkChannelProjectile</projectile>
+            </li>
+            <li Class="RimEffect.AbilityExtension_Biotic">
+                <energyUsed>50</energyUsed>
+            </li>
+            <li Class="RimEffect.AbilityExtension_Hediff">
+                <hediff>REN7_DarkChannelHediff</hediff>
+            </li>
+        </modExtensions>
+    </RimEffect.AbilityDef>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>REN7_DarkChannelProjectile</defName>
+        <label>dark channel</label>
+        <thingClass>RimEffect.AbilityProjectile</thingClass>
+        <graphicData>
+            <texPath>Things/AbilityEffects/BioticThrow_Shot</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>Transparent</shaderType>
+        </graphicData>
+        <projectile>
+            <damageDef>Blunt</damageDef>
+            <armorPenetrationBase>1</armorPenetrationBase>
+            <damageAmountBase>0</damageAmountBase>
+            <speed>70</speed>
+        </projectile>
+    </ThingDef>
+
+    <HediffDef ParentName="DiseaseBase">
+        <defName>REN7_DarkChannelHediff</defName>
+        <label>dark channel</label>
+        <labelNoun>dark channel</labelNoun>
+        <description>Painful biotic field that latches onto nearby targets if the target falls unconscious.</description>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>6000~6000</disappearsAfterTicks>
+            </li>
+            <li>
+                <compClass>RimEffectN7.HediffComp_DarkChannel</compClass>
+            </li>
+            <li Class="HediffCompProperties_Effecter">
+                <stateEffecter>REN7_DarkChannelEffecter</stateEffecter>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <EffecterDef>
+        <defName>REN7_DarkChannelEffecter</defName>
+        <children>
+            <li>
+                <subEffecterClass>SubEffecter_DrifterEmoteChance</subEffecterClass>
+                <scale>0.7~0.9</scale>
+                <chancePerTick>0.03</chancePerTick>
+                <positionRadius>0.3</positionRadius>
+                <moteDef>REN7_DarkChannelMote</moteDef>
+                <speed>0.18~0.18</speed>
+                <angle>10~80</angle>
+            </li>
+        </children>
+    </EffecterDef>
+
+    <ThingDef ParentName="MoteBase">
+        <defName>REN7_DarkChannelMote</defName>
+        <graphicData>
+            <texPath>Things/AbilityEffects/Motes/Mote_DarkChannel</texPath>
+        </graphicData>
+        <thingClass>MoteThrownAttached</thingClass>
+        <altitudeLayer>MetaOverlays</altitudeLayer>
+        <mote>
+            <fadeInTime>0.50</fadeInTime>
+            <solidTime>1.5</solidTime>
+            <fadeOutTime>2</fadeOutTime>
+            <attachedDrawOffset>(0.2, 0, 0.2)</attachedDrawOffset>
+        </mote>
+    </ThingDef>
+
+    <HediffDef ParentName="DiseaseBase">
+        <defName>REN7_DarkChannelPainHediff</defName>
+        <label>pain caused by dark channel</label>
+        <description>Painful biotic field that latches onto nearby targets if the target falls unconscious.</description>
+        <stages>
+            <li>
+                <label>minor</label>
+                <painOffset>0.2</painOffset>
+                <capMods>
+                  <li>
+                    <capacity>Consciousness</capacity>
+                    <offset>-0.05</offset>
+                  </li>
+                  <li>
+                    <capacity>Manipulation</capacity>
+                    <offset>-0.05</offset>
+                  </li>
+                </capMods>
+              </li>
+              <li>
+                <minSeverity>0.6</minSeverity>
+                <label>major</label>
+                <painOffset>0.35</painOffset>
+                <capMods>
+                  <li>
+                    <capacity>Consciousness</capacity>
+                    <offset>-0.2</offset>
+                  </li>
+                  <li>
+                    <capacity>Manipulation</capacity>
+                    <offset>-0.2</offset>
+                  </li>
+                </capMods>
+              </li>
+              <li>
+                <minSeverity>0.8</minSeverity>
+                <label>extreme</label>
+                <painOffset>0.6</painOffset>
+                <capMods>
+                  <li>
+                    <capacity>Consciousness</capacity>
+                    <offset>-0.3</offset>
+                  </li>
+                  <li>
+                    <capacity>Manipulation</capacity>
+                    <offset>-0.3</offset>
+                  </li>
+                </capMods>
+              </li>
+              <li>
+                <minSeverity>0.9</minSeverity>
+                <label>extreme</label>
+                <lifeThreatening>true</lifeThreatening>
+                <painOffset>0.85</painOffset>
+                <capMods>
+                  <li>
+                    <capacity>Consciousness</capacity>
+                    <offset>-0.3</offset>
+                  </li>
+                  <li>
+                    <capacity>Manipulation</capacity>
+                    <offset>-0.3</offset>
+                  </li>
+                  <li>
+                    <capacity>Breathing</capacity>
+                    <offset>-0.15</offset>
+                  </li>
+                </capMods>
+              </li>
+        </stages>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+              <disappearsAfterTicks>45000~120000</disappearsAfterTicks>
+            </li>
+          </comps>
+    </HediffDef>
+
+    
+  <RimEffect.AbilityDef>
+    <defName>REN7_Carnage</defName>
+    <label>carnage</label>
+    <description>High-explosive armor shredding projectile.</description>
+    <abilityClass>RimEffect.Ability_ShootProjectile</abilityClass>
+    <targetMode>Location</targetMode>
+    <range>26</range>
+    <radius>4</radius>
+    <cooldownTime>1800</cooldownTime>
+    <cooldownTimeStatFactors>
+    <RE_AbilityCooldownFactor>1</RE_AbilityCooldownFactor>
+    </cooldownTimeStatFactors>
+    <power>30</power>
+    <iconPath>Things/Abilities/Tech_Carnage</iconPath>
+	  <castSound>RE_Tech_Incinerate</castSound>
+    <modExtensions>
+      <li Class="RimEffect.AbilityExtension_Projectile">
+        <projectile>REN7_CarnageProjectile</projectile>
+      </li>
+    </modExtensions>
+  </RimEffect.AbilityDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>REN7_CarnageProjectile</defName>
+    <label>high plasma projectile</label>
+    <graphicData>
+      <texPath>Things/AbilityEffects/Shot_Carnage</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+      <color>(254,189,58)</color>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>REN7_Blunt</damageDef>
+      <speed>45</speed>
+      <explosionRadius>2</explosionRadius>
+      <damageAmountBase>10</damageAmountBase>
+    </projectile>
+  </ThingDef>
+</Defs>

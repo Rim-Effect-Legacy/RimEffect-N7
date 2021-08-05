@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<AlienRace.BackstoryDef>
+    <defName>REN7_N7Soldier</defName>
+    <title>N7 soldier</title>
+    <titleShort>Soldier</titleShort>
+    <baseDescription>[PAWN_nameDef] was one of the N7 program's most promising soldiers. [PAWN_pronoun] was personally congratulated on [PAWN_possessive] achievements by the Commanding Officer at graduation, only to be informed that an alien force had been sighted near a mass relay. [PAWN_nameDef] later served with distinction in the First Contact War.</baseDescription>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Adulthood</slot>
+    <spawnCategories>
+      <li>N7</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+        <li>Social</li>
+    </workDisables>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>REN7_N7Operator</defName>
+    <title>N7 operator</title>
+    <titleShort>Operator</titleShort>
+    <baseDescription>[PAWN_nameDef] operated the heavy machinery and weaponry of the N7 arsenal. [PAWN_pronoun] annihilated husks, broke down brutes, and killed rivaling militias almost every day since [PAWN_pronoun] finished [PAWN_possessive] training. [PAWN_possessive] lust for Reaper blood never ended.</baseDescription>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Adulthood</slot>
+    <spawnCategories>
+      <li>N7</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+        <li>Intellectual</li>
+    </workDisables>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>REN7_N7Hotshot</defName>
+    <title>N7 hotshot</title>
+    <titleShort>Hotshot</titleShort>
+    <baseDescription>[PAWN_nameDef] always liked showing off and now [PAWN_pronoun] has the chance as an N7 operative. [PAWN_nameDef] is great with a gun and knows it, and if you don't [PAWN_pronoun] will make damn sure you do by the time they're done talking to you.</baseDescription>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Adulthood</slot>
+    <spawnCategories>
+      <li>N7</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>REN7_N7Entertainer</defName>
+    <title>N7 entertainer</title>
+    <titleShort>Entertainer</titleShort>
+    <baseDescription>[PAWN_nameDef] entertained N7 troops and commandoes while they were colonising Rimworlds. [PAWN_pronoun] has a power of making everything a little bit better. Due to still being a N7 unit, [PAWN_pronoun] still got extensive training in combat.</baseDescription>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Adulthood</slot>
+    <spawnCategories>
+      <li>N7</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+        <li>Intellectual</li>
+    </workDisables>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>REN7_N7Pathfinder</defName>
+    <title>N7 pathfinder</title>
+    <titleShort>Pathfinder</titleShort>
+    <baseDescription>Originally a low-ranking member of the first task force to pass through the Charon mass relay, [PAWN_nameDef] later proved [PAWN_possessive] self by going through the N7 Program. [PAWN_pronoun] specializes in exploration and research, and has an interest in AI that makes others on [PAWN_possessive] team worry.</baseDescription>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Adulthood</slot>
+    <spawnCategories>
+      <li>N7</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+        <li>Artistic</li>
+		<li>Social</li>
+    </workDisables>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>REN7_N7CombatEngineer</defName>
+    <title>N7 combat engineer</title>
+    <titleShort>Engineer</titleShort>
+    <baseDescription>[PAWN_nameDef] joined the System's Alliance Engineer Corps from a young age. One of the battles on which [PAWN_pronoun] was deployed turned out to be a massacre for the Alliance's forces, and only the heroic actions of [PAWN_nameDef] and [PAWN_possessive] team allowed the victory; having successfully destroyed in a suicide mission a key fortification that had a whole battalion pinned down. Days postponing the aftermath, [PAWN_pronoun] was offered a place in the N7 program.</baseDescription>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Adulthood</slot>
+    <spawnCategories>
+      <li>N7</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>REN7_N7Experiment</defName>
+    <title>N7 experiment</title>
+    <titleShort>Experimented</titleShort>
+    <baseDescription>[PAWN_nameDef] had substantial muscle placement and a powerful body structure ever since [PAWN_pronoun] was born. At 18, [PAWN_possessive] parents signed him up for a experimental N7 facility for further training. [PAWN_nameDef] never got to be a member of society.</baseDescription>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Adulthood</slot>
+    <spawnCategories>
+      <li>N7</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+        <li>Social</li>
+    </workDisables>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>REN7_N7Negotiator</defName>
+    <title>N7 negotiator</title>
+    <titleShort>Negotiator</titleShort>
+    <baseDescription>[PAWN_nameDef] turned out to have a gift for performing extreme deals and trades with opposing enemies. Due to [PAWN_possessive] constant negotiating taking all [PAWN_possessive] time, lower ranking officers did all the menial work for  [PAWN_possessive].</baseDescription>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Adulthood</slot>
+    <spawnCategories>
+      <li>N7</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+		<li>Hauling</li>
+		<li>Caring</li>
+    </workDisables>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>REN7_N7Biotic</defName>
+    <title>N7 biotic</title>
+    <titleShort>Biotic</titleShort>
+    <baseDescription>[PAWN_nameDef] was a heavily trained biotic of the N7 force. [PAWN_pronoun] assassinated, guarded, and destroyed with [PAWN_possessive] powers.</baseDescription>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Adulthood</slot>
+    <spawnCategories>
+      <li>N7</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+        <li>
+            <defName>RE_BioticRecoveryOffset</defName>
+            <degree>1</degree>
+            <chance>100</chance>
+        </li>
+    </forcedTraits>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>REN7_N7MartialArtist</defName>
+    <title>N7 martial artist</title>
+    <titleShort>Puncher</titleShort>
+    <baseDescription>[PAWN_nameDef] was N7's ultimate melee trooper. [PAWN_pronoun] performed exceptionally well with a monomolecular blade, and could kill with [PAWN_possessive] own bare hands. This made [PAWN_nameDef] drop any "soft" hobbies.</baseDescription>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Adulthood</slot>
+    <spawnCategories>
+      <li>N7</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Construction</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>-1</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+		<li>Animals</li>
+		<li>Caring</li>
+    </workDisables>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>REN7_N7Saboteur</defName>
+    <title>N7 saboteur</title>
+    <titleShort>Saboteur</titleShort>
+    <baseDescription>[PAWN_nameDef] is a natural saboteur. [PAWN_nameDef] hacks mechanoids, breaks down turrets, and makes elaborate getaway plans. This makes [PAWN_nameDef] a powerful asset to the N7 task force and a massively respected colleague to [PAWN_possessive] fellow officers.</baseDescription>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Adulthood</slot>
+    <spawnCategories>
+      <li>N7</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+    </workDisables>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>REN7_N7Disgrace</defName>
+    <title>N7 disgrace</title>
+    <titleShort>Disgrace</titleShort>
+    <baseDescription>On an important journey involving a N7 task force, [PAWN_nameDef] made a grave and life-ruining mistake. N7 forgave the mistake and eventually repaired the damage that it caused, but [PAWN_possessive] friends and family didn't take it so lightly.</baseDescription>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Adulthood</slot>
+    <spawnCategories>
+      <li>N7</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>REN7_N7Backup</defName>
+    <title>N7 backup</title>
+    <titleShort>Secondary</titleShort>
+    <baseDescription>When everybody else was being sent to extreme missions and rabid warzones, [PAWN_nameDef] was given simple tasks like escorting semi-important figures and maintaining small shuttlecraft. All this miscellaneous training gave [PAWN_nameDef] a slight advantage in a lot of non-combat related things.</baseDescription>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Adulthood</slot>
+    <spawnCategories>
+      <li>N7</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+    </workDisables>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>REN7_N7SettlementLeader</defName>
+    <title>N7 settlement leader</title>
+    <titleShort>Settling chief</titleShort>
+    <baseDescription>As one of the leading officers of a Systems Alliance military outpost, [PAWN_nameDef] learned the importance of being in such a position. [PAWN_pronoun] governed building sizes, weapon usage, and resource stockpiling for years. As a higher up, [PAWN_pronoun] was spoiled with the luxury that comes with that position.</baseDescription>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Adulthood</slot>
+    <spawnCategories>
+      <li>N7</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+	<li>Hauling</li>
+    </workDisables>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>REN7_N7Wanderer</defName>
+    <title>N7 wanderer</title>
+    <titleShort>Wanderer</titleShort>
+    <baseDescription>As a temporary officer that goes from planet to planet to provide [PAWN_possessive] military proficiency, [PAWN_nameDef] never had much of a social life past the rare friend who was lucky enough to to be sent where [PAWN_pronoun] was going twice in a row. This made [PAWN_possessive] life one of isolation.</baseDescription>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Adulthood</slot>
+    <spawnCategories>
+      <li>N7</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-2</amount>
+      </li> 
+    </skillGains>
+    <workDisables>
+    </workDisables>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>RE_WarHero</defName>
+    <title>War hero</title>
+    <titleShort>Hero</titleShort>
+    <baseDescription>Early in [PAWN_nameDef]'s military career [PAWN_pronoun] found [PAWN_possessive]self facing an overwhelming enemy force. [PAWN_pronoun] risked [PAWN_possessive] own life to save [PAWN_possessive] fellow soldiers and defeat the enemy despite the impossible odds. [PAWN_possessive] bravery and heroism have earned [PAWN_pronoun] medals and recognition from the Alliance fleet. [PAWN_pronoun] almost single-handedly repelled an attack by enemies, earning the Star of Terra, the Alliance's highest honor.</baseDescription>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Adulthood</slot>
+    <spawnCategories>
+      <li>N7</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>3</amount>
+      </li> 
+    </skillGains>
+    <workDisables>
+    </workDisables>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>REN7_N7ShellShocked</defName>
+    <title>N7 shell shocked</title>
+    <titleShort>Traumatised</titleShort>
+    <baseDescription>Right after graduating the Interplanetary Combatives Academy, [PAWN_nameDef] was traumatized in a battlefield, forgetting years of combat expertise. To cope, [PAWN_pronoun] took art lessons. Years later, [PAWN_pronoun] recovered and learned to hold a gun again, barely.</baseDescription>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Adulthood</slot>
+    <spawnCategories>
+      <li>N7</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>-1</amount>
+      </li> 
+      <li>
+        <defName>Artistic</defName>
+        <amount>5</amount>
+      </li> 
+    </skillGains>
+    <workDisables>
+    </workDisables>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>REN7_N7Revoked</defName>
+    <title>N7 revoked</title>
+    <titleShort>Revoked</titleShort>
+    <baseDescription>After losing the status of Council Spectre due to gross misconduct, [PAWN_nameDef] got into the N7 program and raised to power in a newly colonized Rimworld. [PAWN_pronoun] lived in a space flotilla, giving orders to the personnel and occasionally doing ground operations.</baseDescription>
+	<bodyTypeMale>Male</bodyTypeMale>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<slot>Adulthood</slot>
+    <spawnCategories>
+      <li>N7</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>1</amount>
+      </li> 
+    </skillGains>
+    <workDisables>
+	<li>Caring</li>
+    </workDisables>
+</AlienRace.BackstoryDef>
+
+</Defs>
