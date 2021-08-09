@@ -11,7 +11,7 @@
         <iconPath>Things/Abilities/Biotic_DarkChannel</iconPath>
         <power>6</power>
         <castSound>REN7_Biotic_DarkChannel</castSound>
-        <castFleck>Fleck_BlastDry</castFleck>
+        <castFleck>BlastDry</castFleck>
         <targetFlecks>
             <li>RE_Fleck_BioticDistortion</li>
         </targetFlecks>
@@ -75,27 +75,24 @@
                 <scale>0.7~0.9</scale>
                 <chancePerTick>0.03</chancePerTick>
                 <positionRadius>0.3</positionRadius>
-                <moteDef>REN7_DarkChannelMote</moteDef>
+                <fleckDef>REN7_DarkChannelMote</fleckDef>
                 <speed>0.18~0.18</speed>
                 <angle>10~80</angle>
             </li>
         </children>
     </EffecterDef>
 
-    <ThingDef ParentName="MoteBase">
+    <FleckDef ParentName="FleckBase">
         <defName>REN7_DarkChannelMote</defName>
         <graphicData>
             <texPath>Things/AbilityEffects/Motes/Mote_DarkChannel</texPath>
         </graphicData>
-        <thingClass>MoteThrownAttached</thingClass>
         <altitudeLayer>MetaOverlays</altitudeLayer>
-        <mote>
             <fadeInTime>0.50</fadeInTime>
             <solidTime>1.5</solidTime>
             <fadeOutTime>2</fadeOutTime>
             <attachedDrawOffset>(0.2, 0, 0.2)</attachedDrawOffset>
-        </mote>
-    </ThingDef>
+    </FleckDef>
 
     <HediffDef ParentName="DiseaseBase">
         <defName>REN7_DarkChannelPainHediff</defName>

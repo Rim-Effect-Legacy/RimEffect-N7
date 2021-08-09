@@ -63,7 +63,7 @@
       <li>RE_N7Armoury</li>
     </thingSetMakerTags>
     <comps>
-      <li Class="CompProperties_BiocodableApparel"/>
+      <li Class="CompProperties_Biocodable"/>
     </comps>
   </ThingDef>
   
@@ -132,7 +132,7 @@
       <li>RE_N7Armoury</li>
     </thingSetMakerTags>
     <comps>
-      <li Class="CompProperties_BiocodableApparel"/>
+      <li Class="CompProperties_Biocodable"/>
     </comps>
   </ThingDef>
   
@@ -201,7 +201,7 @@
       <li>RE_N7Armoury</li>
     </thingSetMakerTags>
     <comps>
-      <li Class="CompProperties_BiocodableApparel"/>
+      <li Class="CompProperties_Biocodable"/>
     </comps>
   </ThingDef>
   

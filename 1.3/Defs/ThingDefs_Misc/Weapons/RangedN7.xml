@@ -751,7 +751,6 @@
           <canTargetPawns>true</canTargetPawns>
         </targetParams>
         <muzzleFlashScale>30</muzzleFlashScale>
-        <ai_AvoidFriendlyFireRadius>6</ai_AvoidFriendlyFireRadius>
         <minRange>6</minRange>
         <requireLineOfSight>true</requireLineOfSight>
       </li>
@@ -801,12 +800,10 @@
   <FleckDef ParentName="FleckGlowDistortBackground">
     <defName>REN7_Fleck_BioticDistortionBlackhole</defName>
     <altitudeLayer>MoteOverhead</altitudeLayer>
-    <mote>
       <fadeInTime>0.2</fadeInTime>
       <fadeOutTime>0.2</fadeOutTime>
       <solidTime>0.1</solidTime>
       <growthRate>1</growthRate>
-    </mote>
     <graphicData>
       <texPath>Things/Mote/Black</texPath>
       <shaderParameters>
