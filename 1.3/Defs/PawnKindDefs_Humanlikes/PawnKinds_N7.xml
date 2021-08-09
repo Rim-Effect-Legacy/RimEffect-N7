@@ -58,7 +58,7 @@
     <apparelRequired>
     </apparelRequired>
     <modExtensions>
-	  <li Class="RimEffect.PawnKindAbilityExtension">
+	  <li Class="VFECore.Abilities.PawnKindAbilityExtension">
 		<giveAbilities>
 			<li>RE_Biotic_Throw</li>
 		</giveAbilities>
@@ -128,7 +128,7 @@
     <apparelRequired>
     </apparelRequired>
     <modExtensions>
-		<li Class="RimEffect.PawnKindAbilityExtension">
+		<li Class="VFECore.Abilities.PawnKindAbilityExtension">
 			<giveAbilities>
 				<li>RE_Tech_CryoBlast</li>
 				<li>RE_Tech_DefenseMatrix</li>

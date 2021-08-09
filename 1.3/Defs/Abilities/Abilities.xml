@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <RimEffect.AbilityDef>
+    <VFECore.Abilities.AbilityDef>
         <defName>REN7_DarkChannel</defName>
         <label>dark channel</label>
         <description>Plague an opponent with a persistent, painful biotic field that latches onto nearby targets if the target falls unconscious.</description>
-        <abilityClass>RimEffect.Ability_ShootProjectile</abilityClass>
+        <abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
         <targetMode>Pawn</targetMode>
         <castTime>60</castTime>
         <range>24</range>
         <iconPath>Things/Abilities/Biotic_DarkChannel</iconPath>
         <power>6</power>
         <castSound>REN7_Biotic_DarkChannel</castSound>
-        <castMote>Mote_BlastDry</castMote>
-        <targetMotes>
-            <li>RE_Mote_BioticDistortion</li>
-        </targetMotes>
+        <castFleck>Fleck_BlastDry</castFleck>
+        <targetFlecks>
+            <li>RE_Fleck_BioticDistortion</li>
+        </targetFlecks>
         <requiredHediff>
             <hediffDef>RE_BioticAmpHediff</hediffDef>
             <minimumLevel>0</minimumLevel>
         </requiredHediff>
         <modExtensions>
-            <li Class="RimEffect.AbilityExtension_Projectile">
+            <li Class="VFECore.Abilities.AbilityExtension_Projectile">
                 <projectile>REN7_DarkChannelProjectile</projectile>
             </li>
             <li Class="RimEffect.AbilityExtension_Biotic">
                 <energyUsed>50</energyUsed>
             </li>
-            <li Class="RimEffect.AbilityExtension_Hediff">
+            <li Class="VFECore.Abilities.AbilityExtension_Hediff">
                 <hediff>REN7_DarkChannelHediff</hediff>
             </li>
         </modExtensions>
-    </RimEffect.AbilityDef>
+    </VFECore.Abilities.AbilityDef>
 
     <ThingDef ParentName="BaseBullet">
         <defName>REN7_DarkChannelProjectile</defName>
         <label>dark channel</label>
-        <thingClass>RimEffect.AbilityProjectile</thingClass>
+        <thingClass>VFECore.Abilities.AbilityProjectile</thingClass>
         <graphicData>
             <texPath>Things/AbilityEffects/BioticThrow_Shot</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -175,11 +175,11 @@
     </HediffDef>
 
     
-  <RimEffect.AbilityDef>
+  <VFECore.Abilities.AbilityDef>
     <defName>REN7_Carnage</defName>
     <label>carnage</label>
     <description>High-explosive armor shredding projectile.</description>
-    <abilityClass>RimEffect.Ability_ShootProjectile</abilityClass>
+    <abilityClass>VFECore.Abilities.Ability_ShootProjectile</abilityClass>
     <targetMode>Location</targetMode>
     <range>26</range>
     <radius>4</radius>
@@ -191,11 +191,11 @@
     <iconPath>Things/Abilities/Tech_Carnage</iconPath>
 	  <castSound>RE_Tech_Incinerate</castSound>
     <modExtensions>
-      <li Class="RimEffect.AbilityExtension_Projectile">
+      <li Class="VFECore.Abilities.AbilityExtension_Projectile">
         <projectile>REN7_CarnageProjectile</projectile>
       </li>
     </modExtensions>
-  </RimEffect.AbilityDef>
+  </VFECore.Abilities.AbilityDef>
 
   <ThingDef ParentName="BaseBullet">
     <defName>REN7_CarnageProjectile</defName>

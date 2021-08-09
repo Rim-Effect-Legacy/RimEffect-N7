@@ -798,15 +798,14 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="FleckGlowDistortBackground">
-    <defName>REN7_Mote_BioticDistortionBlackhole</defName>
-    <thingClass>MoteThrownAttached</thingClass>
+  <FleckDef ParentName="FleckGlowDistortBackground">
+    <defName>REN7_Fleck_BioticDistortionBlackhole</defName>
     <altitudeLayer>MoteOverhead</altitudeLayer>
     <mote>
-      <fadeInTime>1</fadeInTime>
-      <fadeOutTime>2</fadeOutTime>
-      <solidTime>12</solidTime>
-      <growthRate>0.1</growthRate>
+      <fadeInTime>0.2</fadeInTime>
+      <fadeOutTime>0.2</fadeOutTime>
+      <solidTime>0.1</solidTime>
+      <growthRate>1</growthRate>
     </mote>
     <graphicData>
       <texPath>Things/Mote/Black</texPath>
@@ -816,7 +815,7 @@
       </shaderParameters>
       <drawSize>2.5</drawSize>
     </graphicData>
-  </ThingDef>
+  </FleckDef>
 
   <!-- N7 Chain Shotgun -->
 

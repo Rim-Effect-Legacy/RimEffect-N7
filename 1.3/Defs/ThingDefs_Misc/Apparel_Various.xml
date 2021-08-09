@@ -79,7 +79,6 @@
     <comps>
       <li Class="CompProperties_Biocodable"/>
       <li Class="VFECore.CompProperties_ShieldBubble">
-        <compClass>VFECore.ShieldBubble</compClass>
         <blockRangedAttack>true</blockRangedAttack>
         <blockMeleeAttack>false</blockMeleeAttack>
         <showWhenDrafted>true</showWhenDrafted>
@@ -168,7 +167,7 @@
     </equippedStatOffsets>
     <comps>
       <li Class="CompProperties_Biocodable"/>
-      <li Class="RimEffect.CompProperties_AbilitiesApparel">
+      <li Class="VFECore.Abilities.CompProperties_AbilitiesApparel">
         <abilities>
           <li>REN7_DarkChannel</li>
         </abilities>
@@ -252,7 +251,7 @@
     </thingSetMakerTags>
     <comps>
       <li Class="CompProperties_Biocodable"/>
-      <li Class="RimEffect.CompProperties_AbilitiesApparel">
+      <li Class="VFECore.Abilities.CompProperties_AbilitiesApparel">
         <abilities>
           <li>REN7_Carnage</li>
         </abilities>

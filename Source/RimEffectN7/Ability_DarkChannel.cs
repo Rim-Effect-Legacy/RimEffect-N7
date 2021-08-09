@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace RimEffectN7
 {
-    using RimEffect;
     using RimWorld;
     using Verse;
-    using Ability = RimEffect.Ability;
+    using VFECore.Abilities;
+
 
     public class HediffComp_DarkChannel : HediffComp_Ability
     {

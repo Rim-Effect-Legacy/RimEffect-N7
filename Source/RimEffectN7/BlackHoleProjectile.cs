@@ -26,14 +26,11 @@ namespace RimEffectN7
         private List<Pawn> tmpPawns = new List<Pawn>();
 
         public  float radius = 5f;
-
-        public ThingDef mote;
-        public Mote     moteThing;
-
+        
+        
         public override void SpawnSetup(Map map, bool respawningAfterLoad)
         {
             base.SpawnSetup(map, respawningAfterLoad);
-            this.mote = ThingDef.Named("REN7_Mote_BioticDistortionBlackhole");
         }
 
         public override Graphic Graphic
@@ -59,16 +56,6 @@ namespace RimEffectN7
                     pawn.Notify_Teleported();
                     pawn.pather.nextCell = this.DrawPos.ToIntVec3();
                 }
-
-            if (this.moteThing is null)
-            {
-                this.moteThing = MoteMaker.MakeStaticMote(this.DrawPos, this.Map, mote);
-            }
-            else
-            {
-                this.moteThing.Maintain();
-                this.moteThing.exactPosition = this.DrawPos;
-            }
 
             if (this.IsHashIntervalTick(GenTicks.TickRareInterval / 10))
             {

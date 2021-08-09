@@ -8,7 +8,7 @@ namespace RimEffectN7
 {
     using RimWorld;
     using Verse;
-    using AbilityDef = RimEffect.AbilityDef;
+    using AbilityDef = VFECore.Abilities.AbilityDef;
 
     [DefOf]
     public static class REN7_DefOf
