@@ -738,6 +738,7 @@
     <verbs>
       <li>
         <verbClass>Verb_ShootOneUse</verbClass>
+		<forcedMissRadius>2</forcedMissRadius>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>REN7_Rocket_BlackHole</defaultProjectile>
         <burstShotCount>1</burstShotCount>
