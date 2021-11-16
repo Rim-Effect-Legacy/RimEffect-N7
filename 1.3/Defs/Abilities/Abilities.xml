@@ -71,9 +71,9 @@
         <defName>REN7_DarkChannelEffecter</defName>
         <children>
             <li>
-                <subEffecterClass>SubEffecter_DrifterEmoteChance</subEffecterClass>
+                <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
                 <scale>0.7~0.9</scale>
-                <chancePerTick>0.03</chancePerTick>
+                <chancePerTick>0.3</chancePerTick>
                 <positionRadius>0.3</positionRadius>
                 <fleckDef>REN7_DarkChannelMote</fleckDef>
                 <speed>0.18~0.18</speed>
