@@ -64,9 +64,9 @@ namespace RimEffectN7
 
                 foreach (IntVec3 intVec3 in GenAdj.OccupiedRect(this.DrawPos.ToIntVec3(), this.Rotation, rangeIntVec2))
                 {
-                    if (!intVec3.InBounds(Find.CurrentMap))
+                    if (!intVec3.InBounds(this.Map))
                         continue;
-                    List<Thing> cellThings = Find.CurrentMap.thingGrid.ThingsListAt(intVec3);
+                    List<Thing> cellThings = this.Map.thingGrid.ThingsListAt(intVec3);
                     if (cellThings == null)
                         continue;
 
