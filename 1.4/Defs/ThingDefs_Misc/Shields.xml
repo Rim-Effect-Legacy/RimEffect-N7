@@ -85,7 +85,6 @@
            <li>RE_OmniShield</li>
         </tradeTags>
         <comps>
-            <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon"/>
             <li Class="VFECore.CompProperties_Shield">
                 <shieldTags>
                     <li>UltratechN7</li>
