@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+   <ResearchProjectDef>
+    <defName>REN7_N7Weaponry</defName>
+    <label>N7 weaponry</label>
+    <description>Craft N7 weapons.</description>
+    <baseCost>4000</baseCost>
+    <techLevel>Ultra</techLevel>
+    <prerequisites>
+      <li>RE_HeavyAllianceWeapons</li>
+    </prerequisites>
+    <requiredResearchBuilding>RE_SpacerTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+	  <li>RE_AllianceTerminal</li>
+    </requiredResearchFacilities>
+    <researchViewX>2.0</researchViewX>
+    <researchViewY>3.5</researchViewY>
+	<tab>RimEffect</tab>
+  </ResearchProjectDef>
+  
+   <ResearchProjectDef>
+    <defName>REN7_N7Armoury</defName>
+    <label>N7 armoury</label>
+    <description>Craft N7 armor.</description>
+    <baseCost>5000</baseCost>
+    <techLevel>Ultra</techLevel>
+    <prerequisites>
+      <li>RE_HeavyAllianceArmor</li>
+    </prerequisites>
+    <requiredResearchBuilding>RE_SpacerTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+	  <li>RE_AllianceTerminal</li>
+    </requiredResearchFacilities>
+    <researchViewX>4.0</researchViewX>
+    <researchViewY>3.5</researchViewY>
+	<tab>RimEffect</tab>
+  </ResearchProjectDef>
+
+</Defs>

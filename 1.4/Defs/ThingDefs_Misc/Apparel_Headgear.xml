@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>REN7_Apparel_N7HeavyHelmet</defName>
+    <label>N7 heavy helmet</label>
+    <description>A heavy helmet with high armor.</description>
+    <techLevel>Ultra</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>REN7_N7Armoury</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>12</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>RE_ManufacturingBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Item/Apparel/N7HeavyArmor/N7HeavyArmorHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(0.9, 0.9)</drawSize>
+    </graphicData>
+    <uiIconScale>1.25</uiIconScale>
+    <tradeTags>
+      <li>RE_N7Armoury</li>
+    </tradeTags>
+    <generateCommonality>2</generateCommonality>
+    <statBases>
+      <WorkToMake>32000</WorkToMake>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Mass>2</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>1.3</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.7</ArmorRating_Heat>
+      <Insulation_Cold>8</Insulation_Cold>
+      <Insulation_Heat>6</Insulation_Heat>
+      <EquipDelay>8</EquipDelay>
+    </statBases>
+    <costList>
+      <ComponentSpacer>3</ComponentSpacer>
+      <Plasteel>75</Plasteel>
+	  <RE_ElementZero>10</RE_ElementZero>
+    </costList>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Item/Apparel/N7HeavyArmor/N7HeavyArmorHelmet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <useDeflectMetalEffect>true</useDeflectMetalEffect>
+      <tags>
+        <li>REN7_HeavyN7Armoury</li>
+      </tags>
+    </apparel>
+    <thingSetMakerTags>
+      <li>RE_N7Armoury</li>
+    </thingSetMakerTags>
+    <comps>
+      <li Class="CompProperties_Biocodable"/>
+    </comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>RE_Apparel_N7AdeptMask</defName>
+    <label>N7 adept mask</label>
+    <description>A mask with a hood. Greatly increases biotic energy regeneration rate.</description>
+    <techLevel>Ultra</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>REN7_N7Armoury</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>RE_ManufacturingBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Item/Apparel/N7AdeptArmor/N7AdeptArmorHelmet</texPath> 
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.9, 0.9)</drawSize>
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <tradeTags>
+      <li>RE_N7Armoury</li>
+    </tradeTags>
+    <generateCommonality>2</generateCommonality>
+    <statBases>
+      <WorkToMake>18000</WorkToMake>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>1</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>0.9</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.3</ArmorRating_Heat>
+      <Insulation_Cold>6</Insulation_Cold>
+      <Insulation_Heat>4</Insulation_Heat>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <costList>
+      <ComponentSpacer>2</ComponentSpacer>
+      <Plasteel>35</Plasteel>
+	  <RE_ElementZero>5</RE_ElementZero>
+    </costList>
+	<equippedStatOffsets>
+      <RE_BioticEnergyRecoveryRate>1.0</RE_BioticEnergyRecoveryRate>
+    </equippedStatOffsets>
+    <apparel>
+      <tags>
+        <li>REN7_AdeptArmor</li>
+      </tags>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Item/Apparel/N7AdeptArmor/N7AdeptArmorHelmet</wornGraphicPath> 
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <useDeflectMetalEffect>true</useDeflectMetalEffect>
+    </apparel>
+    <thingSetMakerTags>
+      <li>RE_N7Armoury</li>
+    </thingSetMakerTags>
+    <comps>
+      <li Class="CompProperties_Biocodable"/>
+    </comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>REN7_Apparel_N7Helmet</defName>
+    <label>N7 helmet</label>
+    <description>A helmet with decent armor. Makes the wearer completely resistant to toxins.</description>
+    <techLevel>Ultra</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <researchPrerequisite>REN7_N7Armoury</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>RE_ManufacturingBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Item/Apparel/N7Armor/N7ArmorHelmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <uiIconScale>1.25</uiIconScale>
+    <tradeTags>
+      <li>RE_N7Armoury</li>
+    </tradeTags>
+    <generateCommonality>2</generateCommonality>
+    <statBases>
+      <WorkToMake>24000</WorkToMake>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Mass>1.5</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>1.2</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.55</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.65</ArmorRating_Heat>
+      <Insulation_Cold>6</Insulation_Cold>
+      <Insulation_Heat>4</Insulation_Heat>
+      <EquipDelay>4</EquipDelay>
+    </statBases>
+    <costList>
+      <ComponentSpacer>3</ComponentSpacer>
+      <Plasteel>60</Plasteel>
+	  <RE_ElementZero>5</RE_ElementZero>
+    </costList>
+    <equippedStatOffsets>
+	  <ToxicSensitivity>-1.0</ToxicSensitivity>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Item/Apparel/N7Armor/N7ArmorHelmet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <useDeflectMetalEffect>true</useDeflectMetalEffect>
+      <tags>
+        <li>REN7_N7Armoury</li>
+      </tags>
+    </apparel>
+    <thingSetMakerTags>
+      <li>RE_N7Armoury</li>
+    </thingSetMakerTags>
+    <comps>
+      <li Class="CompProperties_Biocodable"/>
+    </comps>
+  </ThingDef>
+  
+</Defs>
