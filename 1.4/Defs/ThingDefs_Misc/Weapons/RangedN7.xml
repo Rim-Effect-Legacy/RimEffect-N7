@@ -335,11 +335,6 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.14</drawSize>
     </graphicData>
-    <comps>
-      <li>
-        <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
-      </li>
-    </comps>
     <soundInteract>REN7_Interact_N7DMR</soundInteract>
     <statBases>
       <WorkToMake>52000</WorkToMake>
@@ -619,11 +614,6 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.22</drawSize>
     </graphicData>
-    <comps>
-      <li>
-        <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
-      </li>
-    </comps>
     <soundInteract>REN7_Interact_N7AntiMaterielRifle</soundInteract>
     <statBases>
       <WorkToMake>55000</WorkToMake>
@@ -771,9 +761,6 @@
         <explosiveRadius>9.9</explosiveRadius>
         <explosiveDamageType>Bomb</explosiveDamageType>
         <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
-      </li>
-      <li>
-        <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
       </li>
     </comps>
   </ThingDef>
