@@ -179,7 +179,7 @@
 	  <RE_ElementZero>5</RE_ElementZero>
     </costList>
     <equippedStatOffsets>
-	  <ToxicSensitivity>-1.0</ToxicSensitivity>
+	  <ToxicResistance>1.0</ToxicResistance>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
