@@ -4,10 +4,7 @@
     using System.Reflection;
     using System.Reflection.Emit;
     using HarmonyLib;
-    using JetBrains.Annotations;
-    using Mono.Cecil.Cil;
     using Verse;
-    using Verse.Noise;
 
     [HarmonyPatch(typeof(Pawn_HealthTracker), nameof(Pawn_HealthTracker.PreApplyDamage))]
     public static class AbsorbDamage_Patch
