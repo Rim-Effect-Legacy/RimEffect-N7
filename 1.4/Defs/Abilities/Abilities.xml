@@ -73,7 +73,7 @@
             <li>
                 <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
                 <scale>0.7~0.9</scale>
-                <chancePerTick>0.3</chancePerTick>
+                <chancePerTick>0.1</chancePerTick>
                 <positionRadius>0.3</positionRadius>
                 <fleckDef>REN7_DarkChannelMote</fleckDef>
                 <speed>0.18~0.18</speed>
@@ -160,6 +160,33 @@
                   <li>
                     <capacity>Breathing</capacity>
                     <offset>-0.15</offset>
+                  </li>
+                </capMods>
+              </li>
+              <li>
+                <minSeverity>0.95</minSeverity>
+                <label>good bye</label>
+                <lifeThreatening>true</lifeThreatening>
+                <painOffset>10</painOffset>
+                <painFactor>10</painFactor>
+                <totalBleedFactor>10</totalBleedFactor>
+                <deathMtbDays>0.00001</deathMtbDays>
+                <capMods>
+                  <li>
+                    <capacity>Consciousness</capacity>
+                    <setMax>0</setMax>
+                  </li>
+                  <li>
+                    <capacity>Manipulation</capacity>
+                    <setMax>0</setMax>
+                  </li>
+                  <li>
+                    <capacity>Breathing</capacity>
+                    <setMax>0</setMax>
+                  </li>
+                  <li>
+                    <capacity>BloodPumping</capacity>
+                    <setMax>0</setMax>
                   </li>
                 </capMods>
               </li>

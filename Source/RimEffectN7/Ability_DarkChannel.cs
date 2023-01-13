@@ -12,13 +12,24 @@ namespace RimEffectN7
         public override bool CompShouldRemove => 
             this.Pawn.health.InPainShock;
 
+        public override void Notify_PawnDied()
+        {
+            base.Notify_PawnDied();
+            this.Hop();
+        }
+
         public override void CompPostPostRemoved()
         {
             base.CompPostPostRemoved();
-            if ((this.Pawn?.Spawned ?? false) && this.Pawn.Downed && this.ability != null)
+            this.Hop();
+        }
+
+        public void Hop()
+        {
+            if ((this.Pawn?.Spawned ?? false) && this.ability != null)
             {
                 if (GenRadial.RadialCellsAround(this.Pawn.PositionHeld, 3f, true).SelectMany(ivc => ivc.GetThingList(this.Pawn.Map)).OfType<Pawn>().Where(p =>
-                    p != this.Pawn && !p.Downed && this.ability.Caster.HostileTo(p)).TryRandomElement(out Pawn target))
+                                                                                                                                                              p != this.Pawn && !p.Downed && this.ability.Caster.HostileTo(p)).TryRandomElement(out Pawn target))
                 {
                     Projectile projectile = GenSpawn.Spawn(REN7_DefOf.REN7_DarkChannel.GetModExtension<AbilityExtension_Projectile>().projectile, this.Pawn.Position, this.Pawn.Map) as Projectile;
                     if (projectile is AbilityProjectile abilityProjectile)
