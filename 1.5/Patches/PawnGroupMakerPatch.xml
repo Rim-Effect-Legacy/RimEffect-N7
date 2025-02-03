@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationAdd">
+	
+        <xpath>Defs/FactionDef[@Name="RE_AllianceFactionBase"]/pawnGroupMakers</xpath>
+        <value>
+		    <li>
+                <!-- N7 guys -->
+                <kindDef>Combat</kindDef>
+                <options>
+                    <REN7_N7AgentAdept>5</REN7_N7AgentAdept>
+					<REN7_N7AgentEngineer>5</REN7_N7AgentEngineer>
+                </options>
+            </li>
+		</value>
+		
+    </Operation>
+	
+</Patch>

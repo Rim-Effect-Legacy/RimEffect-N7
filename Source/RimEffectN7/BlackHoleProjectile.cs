@@ -93,29 +93,28 @@ namespace RimEffectN7
             base.Explode();
         }
 
-        public override void Draw()
+        public override void DynamicDrawPhaseAt(DrawPhase phase, Vector3 drawLoc, bool flip = false)
         {
-            float arcHeightFactor  = def.projectile.arcHeightFactor;
+            base.DynamicDrawPhaseAt(phase, drawLoc, flip);
+            float arcHeightFactor = def.projectile.arcHeightFactor;
             float arcHeightFactor2 = (destination - origin).MagnitudeHorizontalSquared();
             if (arcHeightFactor * arcHeightFactor > arcHeightFactor2 * 0.2f * 0.2f)
             {
                 arcHeightFactor = Mathf.Sqrt(arcHeightFactor2) * 0.2f;
             }
 
-            float   num      = arcHeightFactor * GenMath.InverseParabola(DistanceCoveredFraction);
-            Vector3 drawPos  = DrawPos;
+            float num = arcHeightFactor * GenMath.InverseParabola(DistanceCoveredFraction);
+            Vector3 drawPos = DrawPos;
             Vector3 position = drawPos + new Vector3(0f, 0f, 1f) * num;
 
             //Graphics.DrawMesh(MeshPool.GridPlane(def.graphicData.drawSize), position, ExactRotation, def.DrawMatSingle, 0);
 
-            Mesh       mesh = this.Graphic.MeshAt(this.Rotation);
+            Mesh mesh = this.Graphic.MeshAt(this.Rotation);
             Quaternion quat = Quaternion.AngleAxis(this.curRotation, Vector3.up);
 
             Material mat = this.Graphic.MatAt(this.Rotation, this);
 
             Graphics.DrawMesh(mesh, position, quat, mat, 0);
-
-
 
             Comps_PostDraw();
         }
